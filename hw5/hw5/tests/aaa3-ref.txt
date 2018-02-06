@@ -1,0 +1,103 @@
+adt> adta -s jordan
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jordan   
+
+adt> adta -s jordano
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jordan   [  1] = jordan   
+
+adt> adta -s jorda
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jordan   [  1] = jordan   [  2] = jorda   
+
+adt> adta -s jordan
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jordan   [  1] = jordan   [  2] = jorda   [  3] = jordan   
+
+
+adt> adta -s jordana
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jordan   [  1] = jordan   [  2] = jorda   [  3] = jordan   
+[  4] = jordan   
+
+adt> adtd -s jordani
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jordan   [  1] = jordan   [  2] = jorda   [  3] = jordan   
+
+
+adt> adtd -s jord
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jordan   [  1] = jordan   [  2] = jorda   [  3] = jordan   
+
+
+adt> adta -r 30
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jordan   [  1] = jordan   [  2] = jorda   [  3] = jordan   
+[  4] = yprwly   [  5] = kvrxmf   [  6] = yxdwql   [  7] = qhuhlf   
+[  8] = ehokex   [  9] = igbqfq   [ 10] = nzhosc   [ 11] = mpyliw   
+[ 12] = laipvg   [ 13] = rmmhse   [ 14] = qbksrq   [ 15] = jepqsi   
+[ 16] = tfxrqg   [ 17] = gqoxrv   [ 18] = siqanv   [ 19] = qqnkjs   
+[ 20] = urdabr   [ 21] = eqsoaa   [ 22] = hgrwei   [ 23] = rwqixe   
+[ 24] = envrxe   [ 25] = kswoty   [ 26] = gyoymo   [ 27] = yuvprz   
+[ 28] = yiwpqt   [ 29] = uugpme   [ 30] = uwwrkp   [ 31] = pqodpa   
+[ 32] = snvncm   [ 33] = ljqciw   
+
+adt> adtd -front 5
+
+adt> adtp
+=== ADT (array) ===
+[  0] = uugpme   [  1] = jordan   [  2] = jorda   [  3] = jordan   
+[  4] = yprwly   [  5] = kvrxmf   [  6] = yxdwql   [  7] = qhuhlf   
+[  8] = ehokex   [  9] = igbqfq   [ 10] = nzhosc   [ 11] = mpyliw   
+[ 12] = laipvg   [ 13] = rmmhse   [ 14] = qbksrq   [ 15] = jepqsi   
+[ 16] = tfxrqg   [ 17] = gqoxrv   [ 18] = siqanv   [ 19] = qqnkjs   
+[ 20] = urdabr   [ 21] = eqsoaa   [ 22] = hgrwei   [ 23] = rwqixe   
+[ 24] = envrxe   [ 25] = kswoty   [ 26] = gyoymo   [ 27] = yuvprz   
+[ 28] = yiwpqt   
+
+adt> adtd -back 5
+
+adt> adtp
+=== ADT (array) ===
+[  0] = uugpme   [  1] = jordan   [  2] = jorda   [  3] = jordan   
+[  4] = yprwly   [  5] = kvrxmf   [  6] = yxdwql   [  7] = qhuhlf   
+[  8] = ehokex   [  9] = igbqfq   [ 10] = nzhosc   [ 11] = mpyliw   
+[ 12] = laipvg   [ 13] = rmmhse   [ 14] = qbksrq   [ 15] = jepqsi   
+[ 16] = tfxrqg   [ 17] = gqoxrv   [ 18] = siqanv   [ 19] = qqnkjs   
+[ 20] = urdabr   [ 21] = eqsoaa   [ 22] = hgrwei   [ 23] = rwqixe   
+
+
+adt> adtd -r 5
+
+adt> adtp
+=== ADT (array) ===
+[  0] = uugpme   [  1] = jordan   [  2] = hgrwei   [  3] = jordan   
+[  4] = yprwly   [  5] = kvrxmf   [  6] = yxdwql   [  7] = qqnkjs   
+[  8] = ehokex   [  9] = igbqfq   [ 10] = nzhosc   [ 11] = mpyliw   
+[ 12] = laipvg   [ 13] = rmmhse   [ 14] = rwqixe   [ 15] = urdabr   
+[ 16] = tfxrqg   [ 17] = eqsoaa   [ 18] = siqanv   
+
+adt> adtd -all
+
+adt> adtp
+=== ADT (array) ===
+
+
+adt> q -f
+

@@ -1,0 +1,175 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARROW_DOWN_KEY	cmdCharDef.h	/^   ARROW_DOWN_KEY   = 66 + ARROW_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+ARROW_DOWN_KEY	cmdCharDef.h	/^   ARROW_DOWN_KEY   = TA_ARROW_DOWN_KEY,$/;"	e	enum:ParseChar	file:
+ARROW_KEY_BEGIN	cmdCharDef.h	/^   ARROW_KEY_BEGIN  = ARROW_UP_KEY,$/;"	e	enum:ParseChar	file:
+ARROW_KEY_BEGIN	cmdCharDef.h	/^   ARROW_KEY_BEGIN  = TA_ARROW_KEY_BEGIN,$/;"	e	enum:ParseChar	file:
+ARROW_KEY_END	cmdCharDef.h	/^   ARROW_KEY_END    = ARROW_LEFT_KEY,$/;"	e	enum:ParseChar	file:
+ARROW_KEY_END	cmdCharDef.h	/^   ARROW_KEY_END    = TA_ARROW_KEY_END,$/;"	e	enum:ParseChar	file:
+ARROW_KEY_FLAG	cmdCharDef.h	/^   ARROW_KEY_FLAG   = 1 << 8,$/;"	e	enum:ParseChar	file:
+ARROW_KEY_FLAG	cmdCharDef.h	/^   ARROW_KEY_FLAG   = TA_ARROW_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+ARROW_KEY_INT	cmdCharDef.h	/^   ARROW_KEY_INT    = 91,$/;"	e	enum:ParseChar	file:
+ARROW_KEY_INT	cmdCharDef.h	/^   ARROW_KEY_INT    = TA_ARROW_KEY_INT,$/;"	e	enum:ParseChar	file:
+ARROW_LEFT_KEY	cmdCharDef.h	/^   ARROW_LEFT_KEY   = 68 + ARROW_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+ARROW_LEFT_KEY	cmdCharDef.h	/^   ARROW_LEFT_KEY   = TA_ARROW_LEFT_KEY,$/;"	e	enum:ParseChar	file:
+ARROW_RIGHT_KEY	cmdCharDef.h	/^   ARROW_RIGHT_KEY  = 67 + ARROW_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+ARROW_RIGHT_KEY	cmdCharDef.h	/^   ARROW_RIGHT_KEY  = TA_ARROW_RIGHT_KEY,$/;"	e	enum:ParseChar	file:
+ARROW_UP_KEY	cmdCharDef.h	/^   ARROW_UP_KEY     = 65 + ARROW_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+ARROW_UP_KEY	cmdCharDef.h	/^   ARROW_UP_KEY     = TA_ARROW_UP_KEY,$/;"	e	enum:ParseChar	file:
+BACK_SPACE_CHAR	cmdCharDef.h	/^   BACK_SPACE_CHAR  = 8,$/;"	e	enum:ParseChar	file:
+BACK_SPACE_CHAR	cmdCharDef.h	/^   BACK_SPACE_CHAR  = TA_BACK_SPACE_CHAR,$/;"	e	enum:ParseChar	file:
+BACK_SPACE_KEY	cmdCharDef.h	/^   BACK_SPACE_KEY   = 127,$/;"	e	enum:ParseChar	file:
+BACK_SPACE_KEY	cmdCharDef.h	/^   BACK_SPACE_KEY   = TA_BACK_SPACE_KEY,$/;"	e	enum:ParseChar	file:
+BEEP_CHAR	cmdCharDef.h	/^   BEEP_CHAR        = 7,$/;"	e	enum:ParseChar	file:
+BEEP_CHAR	cmdCharDef.h	/^   BEEP_CHAR        = TA_BEEP_CHAR,$/;"	e	enum:ParseChar	file:
+CMD_CHAR_DEF_H	cmdCharDef.h	9;"	d	file:
+CMD_COMMON_H	cmdCommon.h	9;"	d	file:
+CMD_EXEC_DONE	cmdParser.h	/^   CMD_EXEC_DONE  = 0,$/;"	e	enum:CmdExecStatus	file:
+CMD_EXEC_ERROR	cmdParser.h	/^   CMD_EXEC_ERROR = 1,$/;"	e	enum:CmdExecStatus	file:
+CMD_EXEC_NOP	cmdParser.h	/^   CMD_EXEC_NOP   = 3,$/;"	e	enum:CmdExecStatus	file:
+CMD_EXEC_QUIT	cmdParser.h	/^   CMD_EXEC_QUIT  = 2,$/;"	e	enum:CmdExecStatus	file:
+CMD_EXEC_TOT	cmdParser.h	/^   CMD_EXEC_TOT$/;"	e	enum:CmdExecStatus	file:
+CMD_OPT_ERROR_TOT	cmdParser.h	/^   CMD_OPT_ERROR_TOT$/;"	e	enum:CmdOptionError	file:
+CMD_OPT_EXTRA	cmdParser.h	/^   CMD_OPT_EXTRA      = 1,$/;"	e	enum:CmdOptionError	file:
+CMD_OPT_FOPEN_FAIL	cmdParser.h	/^   CMD_OPT_FOPEN_FAIL = 3,$/;"	e	enum:CmdOptionError	file:
+CMD_OPT_ILLEGAL	cmdParser.h	/^   CMD_OPT_ILLEGAL    = 2,$/;"	e	enum:CmdOptionError	file:
+CMD_OPT_MISSING	cmdParser.h	/^   CMD_OPT_MISSING    = 0,$/;"	e	enum:CmdOptionError	file:
+CMD_PARSER_H	cmdParser.h	9;"	d	file:
+CmdClass	cmdParser.h	88;"	d	file:
+CmdExec	cmdParser.h	/^   CmdExec() {}$/;"	f	class:CmdExec
+CmdExec	cmdParser.h	/^class CmdExec$/;"	c	file:
+CmdExecStatus	cmdParser.h	/^enum CmdExecStatus$/;"	g	file:
+CmdMap	cmdParser.h	/^typedef map<const string, CmdExec*>   CmdMap;$/;"	t	class:CmdParser	file:
+CmdOptionError	cmdParser.h	/^enum CmdOptionError$/;"	g	file:
+CmdParser	cmdParser.h	/^   CmdParser(const string& p) : _prompt(p), _dofile(0),$/;"	f	class:CmdParser
+CmdParser	cmdParser.h	/^class CmdParser$/;"	c	file:
+CmdRegPair	cmdParser.h	/^typedef pair<const string, CmdExec*>  CmdRegPair;$/;"	t	class:CmdParser	file:
+DELETE_KEY	cmdCharDef.h	/^   DELETE_KEY       = 51 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+DELETE_KEY	cmdCharDef.h	/^   DELETE_KEY       = TA_DELETE_KEY,$/;"	e	enum:ParseChar	file:
+DofileCmd	cmdCommon.h	/^CmdClass(DofileCmd);$/;"	v
+END_KEY	cmdCharDef.h	/^   END_KEY          = 52 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+END_KEY	cmdCharDef.h	/^   END_KEY          = TA_END_KEY,$/;"	e	enum:ParseChar	file:
+ESC_KEY	cmdCharDef.h	/^   ESC_KEY          = 27,         \/\/ Not printable; used for combo keys$/;"	e	enum:ParseChar	file:
+ESC_KEY	cmdCharDef.h	/^   ESC_KEY          = TA_ESC_KEY,         \/\/ Not printable; used for combo keys$/;"	e	enum:ParseChar	file:
+HOME_KEY	cmdCharDef.h	/^   HOME_KEY         = 49 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+HOME_KEY	cmdCharDef.h	/^   HOME_KEY         = TA_HOME_KEY,$/;"	e	enum:ParseChar	file:
+HelpCmd	cmdCommon.h	/^CmdClass(HelpCmd);$/;"	v
+HistoryCmd	cmdCommon.h	/^CmdClass(HistoryCmd);$/;"	v
+INPUT_END_KEY	cmdCharDef.h	/^   INPUT_END_KEY    = 4,          \/\/ ctrl-d$/;"	e	enum:ParseChar	file:
+INPUT_END_KEY	cmdCharDef.h	/^   INPUT_END_KEY    = TA_INPUT_END_KEY,   \/\/ ctrl-d$/;"	e	enum:ParseChar	file:
+INSERT_KEY	cmdCharDef.h	/^   INSERT_KEY       = 50 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+INSERT_KEY	cmdCharDef.h	/^   INSERT_KEY       = TA_INSERT_KEY,$/;"	e	enum:ParseChar	file:
+LINE_BEGIN_KEY	cmdCharDef.h	/^   LINE_BEGIN_KEY   = 1,          \/\/ ctrl-a$/;"	e	enum:ParseChar	file:
+LINE_BEGIN_KEY	cmdCharDef.h	/^   LINE_BEGIN_KEY   = TA_LINE_BEGIN_KEY,  \/\/ ctrl-a$/;"	e	enum:ParseChar	file:
+LINE_END_KEY	cmdCharDef.h	/^   LINE_END_KEY     = 5,          \/\/ ctrl-e$/;"	e	enum:ParseChar	file:
+LINE_END_KEY	cmdCharDef.h	/^   LINE_END_KEY     = TA_LINE_END_KEY,    \/\/ ctrl-e$/;"	e	enum:ParseChar	file:
+MOD_KEY_BEGIN	cmdCharDef.h	/^   MOD_KEY_BEGIN    = HOME_KEY,$/;"	e	enum:ParseChar	file:
+MOD_KEY_BEGIN	cmdCharDef.h	/^   MOD_KEY_BEGIN    = TA_MOD_KEY_BEGIN,$/;"	e	enum:ParseChar	file:
+MOD_KEY_DUMMY	cmdCharDef.h	/^   MOD_KEY_DUMMY    = 126,$/;"	e	enum:ParseChar	file:
+MOD_KEY_DUMMY	cmdCharDef.h	/^   MOD_KEY_DUMMY    = TA_MOD_KEY_DUMMY,$/;"	e	enum:ParseChar	file:
+MOD_KEY_END	cmdCharDef.h	/^   MOD_KEY_END      = PG_DOWN_KEY,$/;"	e	enum:ParseChar	file:
+MOD_KEY_END	cmdCharDef.h	/^   MOD_KEY_END      = TA_MOD_KEY_END,$/;"	e	enum:ParseChar	file:
+MOD_KEY_FLAG	cmdCharDef.h	/^   MOD_KEY_FLAG     = 1 << 9,$/;"	e	enum:ParseChar	file:
+MOD_KEY_FLAG	cmdCharDef.h	/^   MOD_KEY_FLAG     = TA_MOD_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+MOD_KEY_INT	cmdCharDef.h	/^   MOD_KEY_INT      = 91,$/;"	e	enum:ParseChar	file:
+MOD_KEY_INT	cmdCharDef.h	/^   MOD_KEY_INT      = TA_MOD_KEY_INT,$/;"	e	enum:ParseChar	file:
+NEWLINE_KEY	cmdCharDef.h	/^   NEWLINE_KEY      = TA_NEWLINE_KEY,     \/\/ enter('\\n') or ctrl-m$/;"	e	enum:ParseChar	file:
+NEWLINE_KEY	cmdCharDef.h	/^   NEWLINE_KEY      = int('\\n'),  \/\/ enter('\\n') or ctrl-m$/;"	e	enum:ParseChar	file:
+PARSE_CHAR_END	cmdCharDef.h	/^   PARSE_CHAR_END$/;"	e	enum:ParseChar	file:
+PG_DOWN_KEY	cmdCharDef.h	/^   PG_DOWN_KEY      = 54 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+PG_DOWN_KEY	cmdCharDef.h	/^   PG_DOWN_KEY      = TA_PG_DOWN_KEY,$/;"	e	enum:ParseChar	file:
+PG_OFFSET	cmdParser.h	107;"	d	file:
+PG_UP_KEY	cmdCharDef.h	/^   PG_UP_KEY        = 53 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar	file:
+PG_UP_KEY	cmdCharDef.h	/^   PG_UP_KEY        = TA_PG_UP_KEY,$/;"	e	enum:ParseChar	file:
+ParseChar	cmdCharDef.h	/^enum ParseChar$/;"	g	file:
+QuitCmd	cmdCommon.h	/^CmdClass(QuitCmd);$/;"	v
+READ_BUF_SIZE	cmdParser.h	106;"	d	file:
+TAB_KEY	cmdCharDef.h	/^   TAB_KEY          = TA_TAB_KEY,         \/\/ tab('\\t') or Ctrl-i$/;"	e	enum:ParseChar	file:
+TAB_KEY	cmdCharDef.h	/^   TAB_KEY          = int('\\t'),  \/\/ tab('\\t') or Ctrl-i$/;"	e	enum:ParseChar	file:
+TA_ARROW_DOWN_KEY	cmdCharDef.h	25;"	d	file:
+TA_ARROW_KEY_BEGIN	cmdCharDef.h	28;"	d	file:
+TA_ARROW_KEY_END	cmdCharDef.h	29;"	d	file:
+TA_ARROW_KEY_FLAG	cmdCharDef.h	22;"	d	file:
+TA_ARROW_KEY_INT	cmdCharDef.h	23;"	d	file:
+TA_ARROW_LEFT_KEY	cmdCharDef.h	27;"	d	file:
+TA_ARROW_RIGHT_KEY	cmdCharDef.h	26;"	d	file:
+TA_ARROW_UP_KEY	cmdCharDef.h	24;"	d	file:
+TA_BACK_SPACE_CHAR	cmdCharDef.h	43;"	d	file:
+TA_BACK_SPACE_KEY	cmdCharDef.h	21;"	d	file:
+TA_BEEP_CHAR	cmdCharDef.h	42;"	d	file:
+TA_DELETE_KEY	cmdCharDef.h	34;"	d	file:
+TA_END_KEY	cmdCharDef.h	35;"	d	file:
+TA_ESC_KEY	cmdCharDef.h	20;"	d	file:
+TA_HOME_KEY	cmdCharDef.h	32;"	d	file:
+TA_INPUT_END_KEY	cmdCharDef.h	17;"	d	file:
+TA_INSERT_KEY	cmdCharDef.h	33;"	d	file:
+TA_LINE_BEGIN_KEY	cmdCharDef.h	15;"	d	file:
+TA_LINE_END_KEY	cmdCharDef.h	16;"	d	file:
+TA_MOD_KEY_BEGIN	cmdCharDef.h	38;"	d	file:
+TA_MOD_KEY_DUMMY	cmdCharDef.h	40;"	d	file:
+TA_MOD_KEY_END	cmdCharDef.h	39;"	d	file:
+TA_MOD_KEY_FLAG	cmdCharDef.h	30;"	d	file:
+TA_MOD_KEY_INT	cmdCharDef.h	31;"	d	file:
+TA_NEWLINE_KEY	cmdCharDef.h	19;"	d	file:
+TA_PG_DOWN_KEY	cmdCharDef.h	37;"	d	file:
+TA_PG_UP_KEY	cmdCharDef.h	36;"	d	file:
+TA_TAB_KEY	cmdCharDef.h	18;"	d	file:
+TA_UNDEFINED_KEY	cmdCharDef.h	41;"	d	file:
+UNDEFINED_KEY	cmdCharDef.h	/^   UNDEFINED_KEY    = TA_UNDEFINED_KEY,$/;"	e	enum:ParseChar	file:
+UNDEFINED_KEY	cmdCharDef.h	/^   UNDEFINED_KEY  = INT_MAX,$/;"	e	enum:ParseChar	file:
+UsageCmd	cmdCommon.h	/^CmdClass(UsageCmd);$/;"	v
+_cmdMap	cmdParser.h	/^   CmdMap    _cmdMap;                \/\/ map from string to command$/;"	m	class:CmdParser	file:
+_dofile	cmdParser.h	/^   ifstream* _dofile;                \/\/ for command script$/;"	m	class:CmdParser	file:
+_dofileStack	cmdParser.h	/^   stack<ifstream*> _dofileStack;    \/\/ For recursive dofile calling$/;"	m	class:CmdParser	file:
+_history	cmdParser.h	/^   vector<string>   _history;        \/\/ oldest:_history[0],latest:_hist.back()$/;"	m	class:CmdParser	file:
+_historyIdx	cmdParser.h	/^   size_t    _historyIdx;            \/\/ (1) Position to insert history string$/;"	m	class:CmdParser	file:
+_optCmd	cmdParser.h	/^   string            _optCmd;$/;"	m	class:CmdExec	file:
+_prompt	cmdParser.h	/^   const string _prompt;             \/\/ command prompt$/;"	m	class:CmdParser	file:
+_readBuf	cmdParser.h	/^   char      _readBuf[READ_BUF_SIZE];\/\/ save the current line input$/;"	m	class:CmdParser	file:
+_readBufEnd	cmdParser.h	/^   char*     _readBufEnd;            \/\/ end of string position of _readBuf$/;"	m	class:CmdParser	file:
+_readBufPtr	cmdParser.h	/^   char*     _readBufPtr;            \/\/ point to the cursor position$/;"	m	class:CmdParser	file:
+_tabPressCount	cmdParser.h	/^   size_t    _tabPressCount;         \/\/ The number of tab pressed$/;"	m	class:CmdParser	file:
+_tempCmdStored	cmdParser.h	/^   bool      _tempCmdStored;         \/\/ When up\/pgUp is pressed, current line$/;"	m	class:CmdParser	file:
+closeDofile	cmdParser.cpp	/^CmdParser::closeDofile()$/;"	f	class:CmdParser
+errorOption	cmdParser.cpp	/^CmdExec::errorOption(CmdOptionError err, const string& opt) const$/;"	f	class:CmdExec
+exec	cmdCommon.cpp	/^DofileCmd::exec(const string& option)$/;"	f	class:DofileCmd
+exec	cmdCommon.cpp	/^HelpCmd::exec(const string& option)$/;"	f	class:HelpCmd
+exec	cmdCommon.cpp	/^HistoryCmd::exec(const string& option)$/;"	f	class:HistoryCmd
+exec	cmdCommon.cpp	/^QuitCmd::exec(const string& option)$/;"	f	class:QuitCmd
+execOneCmd	cmdParser.cpp	/^CmdParser::execOneCmd()$/;"	f	class:CmdParser
+getChar	cmdCharDef.cpp	/^CmdParser::getChar(istream& istr) const$/;"	f	class:CmdParser
+getCmd	cmdParser.cpp	/^CmdParser::getCmd(string cmd)$/;"	f	class:CmdParser
+getOptCmd	cmdParser.h	/^   const string& getOptCmd() const { return _optCmd; }$/;"	f	class:CmdExec
+help	cmdCommon.cpp	/^DofileCmd::help() const$/;"	f	class:DofileCmd
+help	cmdCommon.cpp	/^HelpCmd::help() const$/;"	f	class:HelpCmd
+help	cmdCommon.cpp	/^HistoryCmd::help() const$/;"	f	class:HistoryCmd
+help	cmdCommon.cpp	/^QuitCmd::help() const$/;"	f	class:QuitCmd
+initCommonCmd	cmdCommon.cpp	/^initCommonCmd()$/;"	f
+lexOptions	cmdParser.cpp	/^CmdExec::lexOptions$/;"	f	class:CmdExec
+lexSingleOption	cmdParser.cpp	/^CmdExec::lexSingleOption$/;"	f	class:CmdExec
+listCmd	cmdParser.cpp	/^CmdParser::listCmd(const string& str)$/;"	f	class:CmdParser
+mybeep	cmdCharDef.cpp	/^void mybeep()$/;"	f
+mygetc	cmdCharDef.cpp	/^static char mygetc(istream& istr)$/;"	f
+openDofile	cmdParser.cpp	/^CmdParser::openDofile(const string& dof)$/;"	f	class:CmdParser
+parseCmd	cmdParser.cpp	/^CmdParser::parseCmd(string& option)$/;"	f	class:CmdParser
+printHelps	cmdParser.cpp	/^CmdParser::printHelps() const$/;"	f	class:CmdParser
+printHistory	cmdParser.cpp	/^CmdParser::printHistory(int nPrint) const$/;"	f	class:CmdParser
+printPrompt	cmdParser.h	/^   void printPrompt() const { cout << _prompt; }$/;"	f	class:CmdParser	file:
+regCmd	cmdParser.cpp	/^CmdParser::regCmd(const string& cmd, unsigned nCmp, CmdExec* e)$/;"	f	class:CmdParser
+resetBufAndPrintPrompt	cmdParser.h	/^   void resetBufAndPrintPrompt() {$/;"	f	class:CmdParser	file:
+reset_keypress	cmdCharDef.cpp	/^static void reset_keypress(void)$/;"	f
+returnCh	cmdCharDef.cpp	/^returnCh(int ch)$/;"	f
+setOptCmd	cmdParser.h	/^   void setOptCmd(const string& str) { _optCmd = str; }$/;"	f	class:CmdExec
+set_keypress	cmdCharDef.cpp	/^static void set_keypress(void)$/;"	f
+stored_settings	cmdCharDef.cpp	/^static struct termios stored_settings;$/;"	v	typeref:struct:termios
+taTestOnly	cmdParser.h	/^   void taTestOnly() {}$/;"	f	class:CmdParser	file:
+usage	cmdCommon.cpp	/^DofileCmd::usage(ostream& os) const$/;"	f	class:DofileCmd
+usage	cmdCommon.cpp	/^HelpCmd::usage(ostream& os) const$/;"	f	class:HelpCmd
+usage	cmdCommon.cpp	/^HistoryCmd::usage(ostream& os) const$/;"	f	class:HistoryCmd
+usage	cmdCommon.cpp	/^QuitCmd::usage(ostream& os) const$/;"	f	class:QuitCmd
+~CmdExec	cmdParser.h	/^   virtual ~CmdExec() {}$/;"	f	class:CmdExec
+~CmdParser	cmdParser.h	/^   virtual ~CmdParser() {}$/;"	f	class:CmdParser

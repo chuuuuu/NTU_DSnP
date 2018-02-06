@@ -1,0 +1,579 @@
+% ****** Start of file aipsamp.tex ******
+%
+%   This file is part of the AIP files in the AIP distribution for REVTeX 4.
+%   Version 4.1 of REVTeX, October 2009
+%
+%   Copyright (c) 2009 American Institute of Physics.
+%
+%   See the AIP README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.1
+%
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex  aipsamp
+%  2)  bibtex aipsamp
+%  3)  latex  aipsamp
+%  4)  latex  aipsamp
+%
+% Use this file as a source of example code for your aip document.
+% Use the file aiptemplate.tex as a template for your document.
+\documentclass[%
+aip,
+jmp,%
+amsmath,amssymb,
+%preprint,%
+reprint,%
+%author-year,%
+%author-numerical,%
+]{revtex4-1}
+  \usepackage[toc,page]{appendix}
+  \usepackage{graphicx}% Include figure files
+  \usepackage{dcolumn}% Align table columns on decimal point
+  \usepackage{bm}% bold math
+  %\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+  %\linenumbers\relax % Commence numbering lines
+  
+  \begin{document}
+    \title{Entanglement, which-way measurements, and a quantum erasure}% Force line breaks with \\   
+    \maketitle
+  
+    \section{INTRODUCTION}
+
+    Bohr’s principle of complementarity is one of the most fundamental concepts distinguishing
+    the microscopically quantum world from the macroscopically classical world. In fact,
+    complementarity itself is a more general concept of the most familiar example of the wave-
+    particle duality. In classical physics, physical phenomena are represented in either the particle
+    model or the wave model. Physicists successfully gave the precise and elegant descriptions of
+    those phenomena, such as the Newtonian mechanics and Maxwell’s wave theory to radiation.
+    People consequently expected that all entities are either particles or waves. It was, however,
+    the double-slit experiment of electrons that greatly perplexed humankind. In 1927 Niels Bohr
+    summarized that the wave and particle models are complementary; if a measurement proves
+    the wave character of an entity(matter or radiation) , then it is impossible to prove the particle
+    character of it, and conversely. Furthermore, our understanding of the entity is incomplete
+    when only considering one type of the measurement that reveals the particle(wave) aspects,
+    unless we take into account the other.
+
+    The ``Principle of Complementarity" is generalized into the following statement:
+    \begin{quote}
+      For each degree of freedom the dynamical variables are a pair 
+      of complementarity observables.
+    \end{quote}
+    A less formal, but more acquainted saying of the above is:
+    \begin{quote}
+      No matter how the system is well-prepared, 
+      there is always a measurement whose outcome is utterly unpredictable.
+  \end{quote}
+  The principle provides a comprehensive knowledge that a physical system that enforce
+  complementarity varies from one experimental situation to another. The most prominent
+  situation is the example of Heisenberg’s position-momentum uncertainty relation
+  \begin{equation}
+    \delta x\delta p_x\geq\frac{\hbar}{2}
+  \end{equation}
+  In the archetype case of the double-slit experiment, the relation above makes it impossible to
+  determine welcher Weg(which path) the particle passes through without destroying its
+  interference pattern. In our discussions, we consider another experimental situation that makes
+  a `detour’ around the position-momentum uncertainty adversity. Specifically, we tend to obtain
+  the which-path information of an atom without dramatically smearing out the interference
+  pattern. This, however, does not violate the principle of complementarity, and the
+  complementarity is still manifest though the position-momentum uncertainty turns out to cause
+  no effect. At the end, we will be guided to the conclusion of the interaction between the
+  measuring apparatus and the system being observed. For simplicity we will modify the original
+  experimental setup to present a clear model.
+
+  \section{THE MACH-ZEHNDER INTERFEROMETER}
+
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=3in]{Interferometer.eps}
+    \caption{The Mach-Zehnder interferometer. an atom 
+    is emitted by the source S and travels to the detectors 
+    $D_X$ and $D_Y$ . At the beam splitter $BS_1$ it 
+    is deflected to path A or path B. With the mirrors 
+    $M_A$ and $M_B$ the atom interferes with itself at 
+    the beam splitter $BS_2$ before entering the detectors.}
+    \label{interferometer}
+  \end{figure}
+
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=3in]{Delay.eps}
+    \caption{Generalization of quantum interference setup, 
+    allowing a discussion about distinguishability.}
+    \label{delay}
+  \end{figure}
+    
+  If we send many atoms toward the BS, and we detect both in the transmission (T) and the reflection (R) directions, we find that half of the atoms have been transmitted, half reflected. We write in terms of probabilities:
+P(T)= P(R)=1/2.
+
+  We consider the Mach–Zehnder interferometer shown in Figure~\ref{interferometer}. 
+  It consists of a source S, which emits particles into the 
+  interferometer along the x direction such that at any given 
+  time, a maximum of a single particle is in the interferometer. 
+  The particles first hit beam splitter $BS_1$ through which they 
+  are transmitted to path A or deflected to path B. Two mirrors $M_A$ 
+  and $M_B$ let these paths cross again at a second beam splitter $BS_2$ . 
+  At the exit of $BS_2$ are two detectors, $D_X$ along the X 
+  direction and DY along the Y direction, as indicated in Figure ~\ref{interferometer}. 
+  \footnote{C. Ferrari, B. Braunecker, “Entanglement, 
+  which-way measurements, and a quantum erasure”,Am. J. 
+  Phys. [DOI: 10.1119/1.3369921]}
+
+  \subsection{EXPLANATION OF PARTICLE}
+  Classically, we can expect two results:
+  \begin{enumerate}
+    \item With using the “polarizing beam splitters”, 
+    the transmission or reflection is determined by the state of 
+    polarization of the atom, which is said that an atom which 
+    has been transmitted (reflected) will always be transmitted (reflected). 
+    In this case, it is easy to find that: Prob{$D_X$}=0, and Prob{$D_Y$}=1. 
+    \item If we assume that the transmission and reflection are 
+    determined by parameters we cannot control, then the transmission and 
+    reflection are random when an atom arrives at the beam splitter. In 
+    this case, of course, Prob{$D_X$}=Prob{$D_Y$}=$\frac{1}{2}$. 
+    From mathematical point of view , this result is 
+    obtained by multiplying probabilities, which means 
+    precisely that the ``choice” at $BS_2$ is independent of that at $BS_1$.
+    \footnote{V. Scarani, A. Suarez, “Introducing quantum 
+    mechanics:One-particle interferences”, Am. J. Phy. 66, 718-721(1998).}
+  \end{enumerate}
+
+%%%%
+%修改 第三個的b部份
+%%%%
+
+  If we set L=0, we can get~(\ref{eq:3}) again obviously.
+
+
+  \subsection{EXPLANATION OF WAVE}
+  On the other hand, we can obtain the same result from 
+  the point of view of wave. When the atom pass through the 
+  beam splitters, the amplitudes of plane waves(wave functions for atoms) 
+  will be modified by reflection and transmission. At the first 
+  beam splitter an atom has two possible outcomes: 
+  either transmission with an amplitude t into path A or reflection 
+  with amplitude r into path B. Besides, the two plane waves will 
+  also both acquire a phase $\delta=kl$, where $l$ is the length for path A 
+  or path B, and k stands for the wave number for the atom.
+
+  Therefore, the probability amplitude for the detector $D_X$ 
+  is the sum of the probability amplitude from path A, which is 
+  $tre^{i\delta A}$, and that from path B, which is $tre^{i\delta B}$. 
+  Then the probability that an atom can be detected at the detector $D_X$ is 
+  the square of the modulus of the sum of these two amplitudes:
+  \begin{equation}
+    \label{eq:4}
+    \begin{align}
+      Prob\{D_X\}&=|tre^{i\delta A}+tre^{i\delta B}|^2\\
+      &=rr^*tt^*[2+e^{i(\delta A-\delta B)}+e^{-i(\delta A-\delta B)}]\\
+      &=2RT(1+cos\delta)
+    \end{align}
+  \end{equation}
+  
+  Where $R=rr^*$ and $T=tt^*$ stand for the reflection 
+  and transmission probabilities, respectively, 
+  and $\delta=\delta A-\delta B$ is the phase difference arising 
+  from the difference between lengths of the path A and path B and the wave loss. 
+  The atoms detected by Dx all experience once mirror reflection and once 
+  beam-splitter reflection regardless of path A or path B, consequently, 
+  the phase difference due to wave loss eliminate. Thus:
+  \begin{equation}
+    \label{eq:5}
+    \delta=k(l_A-l_B)=kl=L
+  \end{equation}
+
+  Substituting~(\ref{eq:5}) into~(\ref{eq:4}) we can obtain:
+  \begin{equation}
+    Prob\{D_X\}=4RTcos^2\frac{L}{2}
+  \end{equation}
+  
+  If we assume the beam splitters are identical and symmetric, 
+  and set R=T=1/2(50-50 beam splitter), we can obtain again:
+  \begin{subequations}
+    \begin{align}  
+      Prob\{D_X\}&=cos^2\frac{L}{2}\\
+      Prob\{D_Y\}&=1-Prob\{D_X\}=sin^2\frac{L}{2}
+    \end{align}  
+  \end{subequations
+  
+  But, of course, this model cannot explain why no half-atom can be observed: as usual, we find that neither of the two classical models of physical phenomena ~particles and waves! alone can describe quantum interferences.
+  
+  
+  \subsection{EXPERIMENT FACT}
+  In the real experiment the observed probabilities are P(D1)=0, P(D2)=1 i.e., all atoms end in D2! 
+  Recall that each atom is alone while traveling through the interferometer, and that no ‘‘halfatom’’ can be observed. Moreover, each atom undergoes two impacts at two different BSs, exactly as in the setup described in Fig. 2. But in Fig. 3, two paths lead to the same detector: that is, experiment shows that the existence of many possible paths leading to detection has an influence on the experimental outcomes. Since each individual atom behaves as if it had ‘‘explored’’ all the possible paths, people speak of an atom ‘‘interfering with itself.’’
+  
+  
+%%修改 引用費慢
+
+  \subsection{ONE-PARTICLE QUANTUM INTEREFENCE}
+  Inside the interferometer, we associate the state 
+  $|x\rangle$ and $|y\rangle$ with the particle at any time 
+  corresponding to its direction of propagation. For simplicity, we 
+  firstly assume that both the path A and path B have the same 
+  length, under such conditions, we can neglect the phase 
+  of the particle on the trajectories between the beam splitter and mirrors. 
+
+  Two derivations that the phase shift between the transmitted 
+  and the reflected wave fields of a semireflecting lossless mirror 
+  is $\frac{\pi}{2}$ have been given by Degiorgio 
+  \footnote{Vittorio Degiorgio, ``Phase shift between the 
+  transmitted an the reflected optical fields of a semireflecting 
+  lossess mirror is $\frac{\pi}{2}$”.}
+  and proved by using well-known properties of unitary 
+  operators in quantum mechanics by Zeilinger. 
+  \footnote{A, Zeilinger, ``General properties of 
+  lossless beam splitters in interferometry”.}
+  (See ~\ref{appendix:reflection})
+
+  Therefore, the role of the beam splitter 
+  for the atom states in this experiment can be expressed as:
+  \begin{subequations}
+    \label{eq:whole}
+    \begin{align}
+      |x\rangle \rightarrow \frac{1}{\sqrt2}(|x\rangle+i|y\rangle)\\
+      |y\rangle \rightarrow \frac{1}{\sqrt2}(|y\rangle+i|x\rangle)
+    \end{align}
+  \end{subequations}
+
+  The combination of the mirrors MA and MB acts as:
+  \begin{subequations}
+    \label{eq:whole}
+    \begin{align}
+      |x\rangle \rightarrow i|y\rangle\\
+      |y\rangle \rightarrow i|x\rangle
+    \end{align}
+  \end{subequations}
+
+  If we combine these transformations ,we can see that the interferometer acts as :
+  \begin{subequations}
+    \label{eq:whole}
+    \begin{align}
+      |x\rangle \rightarrow e^{i\pi}|x\rangle\\
+      |y\rangle \rightarrow e^{i\pi}|y\rangle
+    \end{align}
+  \end{subequations}
+
+  Because the atoms are injected from the source along the x direction, 
+  which is said that it is at the state $|x\rangle$, 
+  after passing through the interferometer, 
+  the state will transform to $e^{i\pi}|x\rangle$ 
+  at the exit of the Mach-Zehnder interferometer. 
+  The detector $D_X$ measures the component $|x\rangle$ of 
+  the outgoing state $|\Psi_{out}|$, and $D_Y$ measures the 
+  component $|y\rangle$ of the outgoing state $|\Psi_{out}|$ with the probabilities:
+  \begin{subequations}
+    \label{eq:whole}
+    \begin{align}
+      Prob\{D_X\}=\|P_{|x\rangle}|\Psi_{out}\rangle\|^2=|\langle x|\Psi_{out}\rangle|^2\\
+      Prob\{D_Y\}=\|P_{|y\rangle}|\Psi_{out}\rangle\|^2=|\langle y|\Psi_{out}\rangle|^2
+    \end{align}
+  \end{subequations}
+  Where $P_{|x\rangle}$ and $P_{|y\rangle}$ are the projectors onto 
+  $|x\rangle$ and $|y\rangle$, respectively. And $\Psi_{out}=e^{i\pi}|x\rangle$.
+  Obviously: 
+  \begin{subequations}
+    \label{eq:3}
+    \begin{align}
+      Prob\{D_X\}=1\\
+      Prob\{D_Y\}=0
+    \end{align}
+  \end{subequations}
+
+  which means that only the detector Dx can detect the atoms, 
+  and there are no atoms can be find in detector $D_Y$. Comparing with 
+  the classical case, this makes a big difference. 
+  This effect is known as ``one-particle quantum interference” and 
+  is one of the typical nonclassical and counterintuitive 
+  effects of the quantum physics.
+  \footnote{V. Scarani, Quantum Physics: A First Encounter (Oxford U. P., Oxford, 2006).}
+  
+  If we change the length of the two paths, for example, 
+  increasing the length of one of the paths A or B leads to 
+  an additional phase difference of the states before $BS_2$ and 
+  can be used to control of the interference. 
+  Now we add a delay line (which can be an optical fiber), 
+  see Figure~\ref{delay}, and we can consider the following two cases:
+
+  \subsubsection{}
+  If the delay line l is short compared to the coherence 
+  length (See Appendix B) of the laser, then the line length l 
+  is corresponding to the optical length $L=\omega l/c$, where the 
+  $\omega$ is the frequency of the atom and the l 
+  is the length of the fiber.
+
+  The state in the basis of the eigenstates of a beam splitter is 
+  $|\psi\rangle = (|T\rangle + i|R\rangle)$, thus after the atom 
+  passed through $BS_1$, $|T\rangle$ stands for the atom 
+  already selected the path A, and versa vice, 
+  $|R\rangle$ stands for the atom already chose the path B. 
+  When the atom just passes through the $BS_2$, the atom has 
+  two states: $|x\rangle$ or $|y\rangle$. Then we express 
+  the state $(|T\rangle and |R\rangle)$ before $BS_2$ by the after 
+  state($|x\rangle$ and $|y\rangle$):
+  \begin{subequations}
+    \label{eq:1}
+    \begin{align}
+      |T\rangle = \frac{1}{\sqrt2}(|y\rangle+i|x\rangle)\\
+      |R\rangle = \frac{1}{\sqrt2}(|x\rangle+i|y\rangle)
+    \end{align}
+  \end{subequations}
+    
+  Consider that the delay line L will add an extra phase 
+  factor $e^{iL}$ for path A, then the state vector arriving at $BS_2$ is: 
+  \begin{equation}
+    \label{eq:2}
+    |\psi'\rangle=\frac{1}{\sqrt2}(e^{iL}|T\rangle+i|R\rangle)
+  \end{equation}
+
+  Combine~(\ref{eq:1}) and~(\ref{eq:2}), we can get:
+  \begin{equation}
+    \begin{align}
+      |\psi'\rangle&=\frac{1}{\sqrt2}
+      [e^{iL}\frac{1}{\sqrt2}(|y\rangle+i|x\rangle)
+      +i\frac{1}{\sqrt2}(|x\rangle+i|y\rangle)]\\
+      &=\frac{1}{2}[(cosL+isinL-1)|y\rangle+i(cosL+isinL+1)|x\rangle]\\
+      &= isin\frac{L}{2}(cos\frac{L}{2}+isin\frac{L}{2})|y\rangle
+      +icos\frac{L}{2}(cos\frac{L}{2}+isin\frac{L}{2})|x\rangle\\
+      &=ie^{iL}(sin\frac{L}{2}|y\rangle+cos\frac{L}{2}|x\rangle)   
+    \end{align}
+  \end{equation}
+
+  By squaring the moduli of the probability amplitudes we can find that: 
+  \begin{subequations}
+    \begin{align}
+      Prob\{D_X\}=cos^2\frac{L}{2}\\
+      Prob\{D_Y\}=sin^2\frac{L}{2}
+    \end{align}
+  \end{subequations}
+
+  \subsubsection{}
+  If the delay line L is much longer than the coherence 
+  length, then the time at which an atom taking the longer 
+  path is detected will be distinguishably longer than that 
+  of an atom taking the shorter path. In principle, one can be 
+  able to distinguish which path an atom takes, and there 
+  should be no interference.
+  \footnote{J. Galvez, C. H. Holbrow, M. J. Pysher, 
+  J. W. Martin, N. Courtemanche, L. Heilig, and J. Spencer, 
+  “Interference with correlated atoms: 
+  Five quantum mechanics experiments for undergraduates”, 
+  Am. J. Phy. [DOI: 10.1119/1.1796811]} 
+  Therefore, we can finds the classical probabilites: 
+  \begin{equation}
+    Prob\{D_X\}=Prob\{D_Y\}=\frac{1}{2}
+  \end{equation}
+
+  The heart of quantum interference: 
+  indistinguishability. It is only possible to observe either 
+  the path or the interference of the atom but never both simultaneously.
+  \footnote{T. Hellmuth, H Walther, A. Zajonc, 
+  and W. Schleich, ``Delayed-choice experiments in quantum interference”}
+  If one can (even in priciple) distinguish the path each atom has taken, 
+  then one obtains the classical probabilities. 
+  In other terms, interference takes place only 
+  when the atom could have taken more than 
+  one path to give the same final result.
+
+
+  \section{\label{sec:level1}WHICH-WAY DETECTOR}
+
+  In this section,  we put two nondestructive detectors $\tilde{D}_A$ 
+  on path A and $\tilde{D}_B$ on path B to detect which path was chosen. 
+  (see Figure~\ref{detector}) 
+  After we add these two detectors, the probabilities 
+  $Prob\{X\}=Prob\{Y\}=\frac{1}{2}$, equivalent to the 
+  classical result and independent of the result detected by $\tilde{D}_A$ 
+  or $\tilde{D}_B$.
+  However, we cannot observe the interefence anymore. No matter how long the 
+  path is, the interefence would disappear immediately after we put the detectors.
+  It shows that the concept of the path is not totally correct in quantum physics.
+
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=3in]{Detector.eps}
+    \caption{Which-way detection in the Mach–Zehnder interferometer. Additional 
+    (nondestructive) detectors $\tilde{D}_A$ and $\tilde{D}_B$ 
+    are placed on the paths A and B.
+    The entanglement of the particle with $\tilde{D}_A$ and $\tilde{D}_B$ 
+    provides information on
+    which path was taken by it. This information destroys the quantum 
+    interference and results in detection probabilities equal 
+    to 1/2 in $D_X$ and $D_Y$ corresponding to the classical result.}
+    \label{detector}
+  \end{figure}
+
+  \section{\label{sec:level1}WHICH-WAY ENTANGLER}
+
+  An important property of quantum physics is that the interefence would 
+  disappear after we put the dectors $\tilde{D}_A$ and $\tilde{D}_B$. 
+  We can use a simple extension of the Mach–Zehnder 
+  interferometer to illustrate the property. We called this model a 
+  which-way entangler. In addition, we assume that the particle is 
+  emitted into the interferometer in an excited state $|e\rangle$, and 
+  relaxed into the ground state $|g\rangle$ by emission of an atom by the 
+  detector $\tilde{D}_A$ or $\tilde{D}_B$. We denote the atom state by 
+  $|A\rangle$ or $|B\rangle$ determined by which detector received the 
+  atom, and use the notation $|0\rangle$ for otherwise. 
+
+  The state at the entrance of the interferometer is 
+  \begin{eqnarray}
+    |\Psi_{in}\rangle=|x\rangle\otimes|0\rangle\otimes|e\rangle.
+    \label{eq:one}
+  \end{eqnarray}
+  After the first beam splitter, the state is
+  \begin{eqnarray}
+    |\Psi_1\rangle=\frac{1}{\sqrt2}[|x\rangle+i|y\rangle]\otimes|0\rangle
+    \otimes|e\rangle.
+  \end{eqnarray}
+  The action of the detectors $\tilde{D}_A$ or $\tilde{D}_B$ leads to 
+  the entangled state
+  \begin{eqnarray}
+    |\Psi_2\rangle=\frac{1}{\sqrt2}[|x\rangle\otimes|A\rangle
+    +i|y\rangle\otimes|B\rangle]\otimes|g\rangle.
+  \end{eqnarray}
+  After the mirrors, the state is
+  \begin{eqnarray}
+    |\Psi_3\rangle=\frac{1}{\sqrt2}[i|y\rangle\otimes|A\rangle-|x\rangle
+    \otimes|B\rangle]\otimes|g\rangle.
+  \end{eqnarray}
+  Finally, after the second beam splitter, the state is
+  \begin{equation}
+    \label{eq:6}
+    \begin{align}
+      |\Psi_{out}\rangle&=\frac{1}{2}[(i|y\rangle-|x\rangle)\otimes|A\rangle-
+      (|x\rangle+i|y\rangle)\otimes|B\rangle]\otimes|g\rangle\\
+      &=
+      \frac{1}{2}[i|y\rangle\otimes(|A\rangle-|B\rangle)-|x\rangle\otimes
+      (|A\rangle+|B\rangle)]\otimes|g\rangle.
+    \end{align}
+  \end{equation}
+  Hence, the probabilities are
+  \begin{subequations}
+    \label{eq:whole}
+    \begin{align}
+      Prob\{X\}=\|P_{|x\rangle}\otimes I\otimes I|\Psi_{out}\rangle\|^2=
+      \frac{1}{4}\||A\rangle+|B\rangle\|^2=\frac{1}{2},\\
+      Prob\{Y\}=\|P_{|y\rangle}\otimes I\otimes I|\Psi_{out}\rangle\|^2=
+      \frac{1}{4}\||A\rangle-|B\rangle\|^2=\frac{1}{2}.
+    \end{align}
+  \end{subequations}
+  We can see that the interefence effect vanishes. Both of the probabilities are 
+  $\frac{1}{2}$ as the probabilities in classical again. Obviously, 
+  we can observe that if we only 
+  put one detector on only one path, the result would become the same as we just 
+  dicuss. 
+  
+  \section{QUANTUM ERASER}
+  In the preceding section we have seen that it is the system-detector correlations which account for the dramatic effects of the measuring apparatus on the system of interest. It is no surprise that coherence is destroyed as soon as one has which-way information, but here no uncontrollable scattering events were involved in destroying the interference (wave-like) behavior. One then wonders whether it might not be possible to retrieve the coherent interference cross-terms by removing (‘erasing’) the which-way information contained in the detectors. In this sense, If we erase the which-way information in the microwave cavities, will spin coherence be restored? Notice that if we considered the coherence to be lost because of a random scattering or other stochastic perturbations, this question would never come up. In fact, we shall see that interference effects can be restored by manipulating the which-way detectors long after the atoms have passed. Some memorable remarks on this problem would read:
+
+  By applying or not applying the eraser mechanism before measuring the state of the microwave cavities we can, at will, force the atomic beam into either: (1) a state with a known path, and no possibility of interference effects in any subsequent measurement; (2) a state with both A path and B path present with a known relative phase. Interference effects are then not only observable, but predictable. And we can decide which to do after the interaction is over and the atom is far from the cavities, so there can be no thought of any physical influence on the atom’s centre-of-mass wavefunction! From this, it is pretty clear that present quantum theory not only does not use—it does not even dare to mention—the notion of a ‘real physical situation’. Defenders of the theory say that this notion is philosophically naive, a throwback to outmoded ways of thinking, and that recognition of this constitutes deep new wisdom about the nature of human knowledge. We say that it constitutes a violent irrationality, that somewhere in this theory the distinction between reality and our knowledge of reality has become lost, and the result has more the character of medieval necromancy than of science. It has been show that quantum optics, with its vast new technological capability, might be able to provide the experimental clue that will show us to resolve these contradictions.
+
+  In the following we try to show how to resolve these contradictions and suggest further tests of complementarity in quantum mechanics within the framework of modern quantum optics. 
+
+  Consider the Mach–Zehnder interferometer, 
+  modified in the following way. We assume that the atom after 
+  emission in one of the two D detectors travels to an auxiliary atom E, 
+  the quantum eraser, where it can be absorbed see Figure~\ref{eraser} 
+  To activate the quantum eraser, the observer has to open a 
+  channel c connecting detectors $D_A$ and $D_B$ to atom E. This opening 
+  can be done at any time after the emission of the atoms even 
+  when the quantum particle has left the Mach–Zehnder interferometer. 
+  Let $|\gamma\rangle$ be the initial 
+  ground state of the quantum eraser $\epsilon$ and let 
+  $|\epsilon\rangle$ be its excited state. We consider the evolution of the system 
+  ``atom+atom+quantum eraser.” If the channel c is closed, then the 
+  state just before the final detection is identical to~(\ref{eq:6}) 
+  with the additional state $|\gamma\rangle$ of $\epsilon$.
+
+  \begin{figure}[h!]
+    \centering
+    \includegraphics[width=3in]{Eraser.eps}
+    \caption{Which-way detection in the Mach–Zehnder interferometer. Additional 
+    (nondestructive) detectors $\tilde{D}_A$ and $\tilde{D}_B$ are 
+    placed on the paths A and B.
+    The entanglement of the particle with $\tilde{D}_A$ and $\tilde{D}_B$ 
+    provides information on
+    which path was taken by it. This information destroys the quantum interference 
+    and results in detection probabilities equal to $1/2$ in $D_X$ and $D_Y$ 
+    corresponding to the classical result.}
+    \label{eraser}
+  \end{figure}
+
+  In contrast, if channel c is open, the atom travels from the detectors 
+  $D_A$ and $D_B$ to the eraser $\epsilon$ where with some 
+  probability it can be absorbed by exciting the quantum eraser. 
+  Therefore the quantum erasure occurs only for some 
+  outcomes of the interference experiments.
+
+  Do we now (after erasure) regain interference fringes? The answer is yes, but how can that be? The atoms are now far removed from the micromaser cavities and so “there can be no thought of any physical influence on the atom’s centre-of-mass wave function”. The answer to this question is given mathematically as follows.
+
+  For those cases where the atom is absorbed by ε, the system state is projected onto
+  \begin{equation}
+    |\Phi\rangle=-|x\rangle\otimes|0\rangle\otimes|g\rangle\otimes|\epsilon\rangle
+  \end{equation}
+
+  the probabilities Prob\{X\} and Prob\{Y\} are now replaced by the 
+  conditional probabilities $P\{X|abs\}$ and $P\{Y|abs\}$,
+
+  \begin{subequations}
+    \begin{align}
+      P\{X|abs\}=(-\langle x|x\rangle\langle0|0\rangle\langle g|g\rangle\langle\epsilon
+      |\epsilon\rangle)^2=1\\
+      P\{Y|abs\}=(-\langle y|x\rangle\langle0|0\rangle\langle g|g\rangle\langle\epsilon
+      |\epsilon\rangle)^2=1
+    \end{align}
+  \end{subequations}
+
+  We see that the erasure of the which-path information by the absorption of the atom by the quantum eraser completely restores the original quantum interference.
+
+  Here is the physical interpretation of this calculation. 
+  After an atom has run the gauntlet from the oven to the screen, 
+  passing through deterctors and leaving its tell-tale 
+  atom, we record an event somewhere on the final detector $D_X$ or $D_Y$. 
+  Then we return to the eraser atom, open the channel and allow the absorption 
+  of the tell-tale atom. When we observe absorption of the 
+  atom in the eraser we know that erasure has been completed. 
+  In this event the atom is counted as a ‘yes’-atom.
+
+  Then we wait for another atom to pass through the system from oven to screen. Again we record an event on the screen and then turn to the eraser. This time suppose that, upon opening the shutter, we observe no absorption of the atom in the quantum eraser detector. This will be the case half of the time, as explained above. Now we count the atom as a ‘no’-atom.
+
+  We repeat the above sequence many times. Eventually, the ’yes’-atoms will build up the detection of $D_Y$ and the ‘no’-atoms produce only the detection of $D_X$. 
+\\
+
+  \begin{appendices}
+    \section{General Properties of Lossless Beam Splitters In Interferometry}
+    
+    Here is the derivation of the general relations 
+    between the reflection and transmission state 
+    vectors of a lossless beam splitter. For simplicity, 
+    we discuss the  reflection and transmission amplitudes 
+    that represent the state vectors in the Hilbert space. The 
+    concept of a general lossless beam splitter is to consider two 
+    incoming and two outgoing waves and with reflection amplitudes 
+    $r_{RR}$ and $r_{LL}$ and transmission amplitudes $t_{LR}$ and 
+    $t_{RL}$ connecting the outgoing amplitudes to the incoming 
+    amplitudes(Fig. 1). We denote $u_{iL}$ and $u_{iR}$ the 
+    incoming amplitudes from the left side and the right side 
+    respectively; $u_{oL}$ and $u_{oR}$ the outgoing amplitudes 
+    on the left side and the right side respectively. 
+    The relation between the outgoing and the incoming amplitudes is given by
+
+    \begin{eqnarray}
+      u_{oL}=r_{LL}u_{iL}+t_{LR}u_{iR}\\
+      u_{oR}=t_{RL}u_{iL}+r_{RR}u_{iR}
+    \end{eqnarray}
+    We may write that into the matrix notation,
+    \begin{eqnarray}
+      u_{oL}=r_{LL}u_{iL}+t_{LR}u_{iR}\\
+      u_{oR}=t_{RL}u_{iL}+r_{RR}u_{iR}
+    \end{eqnarray}
+
+    \label{appendix:reflection}
+  \end{appendices}
+
+\end{document}
+   %
+   % ****** End of file aipsamp.tex ******
+   

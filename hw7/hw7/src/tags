@@ -1,0 +1,141 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HashSet	util/myHashSet.h	/^   HashSet(size_t b = 0) : _numBuckets(0), _buckets(0) { if (b != 0) init(b); }$/;"	f	class:HashSet
+HashSet	util/myHashSet.h	/^class HashSet$/;"	c
+LOAD_RN	task/taskMgr.h	22;"	d
+MYCLK_TCK	util/myUsage.h	21;"	d
+MYCLK_TCK	util/myUsage.h	22;"	d
+MY_HASH_SET_H	util/myHashSet.h	10;"	d
+MY_MIN_HEAP_H	util/myMinHeap.h	10;"	d
+MY_USAGE_H	util/myUsage.h	10;"	d
+MinHeap	util/myMinHeap.h	/^   MinHeap(size_t s = 0) { if (s != 0) _data.reserve(s); }$/;"	f	class:MinHeap
+MinHeap	util/myMinHeap.h	/^class MinHeap$/;"	c
+MyUsage	util/myUsage.h	/^   MyUsage() { reset(); }$/;"	f	class:MyUsage
+MyUsage	util/myUsage.h	/^class MyUsage$/;"	c
+NAME_LEN	task/taskMgr.h	21;"	d
+RN_GEN_H	util/rnGen.h	9;"	d
+RandomNumGen	util/rnGen.h	/^      RandomNumGen() { my_srandom(getpid()); }$/;"	f	class:RandomNumGen
+RandomNumGen	util/rnGen.h	/^      RandomNumGen(unsigned seed) { my_srandom(seed); }$/;"	f	class:RandomNumGen
+RandomNumGen	util/rnGen.h	/^class RandomNumGen$/;"	c
+TASK_CMD_H	task/taskCmd.h	10;"	d
+TASK_MGR	task/taskMgr.h	10;"	d
+TaskAssignCmd	task/taskCmd.h	/^CmdClass(TaskAssignCmd);$/;"	v
+TaskInitCmd	task/taskCmd.h	/^CmdClass(TaskInitCmd);$/;"	v
+TaskMgr	task/taskMgr.cpp	/^TaskMgr::TaskMgr(size_t nMachines)$/;"	f	class:TaskMgr
+TaskMgr	task/taskMgr.h	/^class TaskMgr$/;"	c
+TaskNewCmd	task/taskCmd.h	/^CmdClass(TaskNewCmd);$/;"	v
+TaskNode	task/taskMgr.cpp	/^TaskNode::TaskNode() $/;"	f	class:TaskNode
+TaskNode	task/taskMgr.h	/^   TaskNode(const string& n, size_t l) : _name(n), _load(l) {}$/;"	f	class:TaskNode
+TaskNode	task/taskMgr.h	/^class TaskNode$/;"	c
+TaskQueryCmd	task/taskCmd.h	/^CmdClass(TaskQueryCmd);$/;"	v
+TaskRemoveCmd	task/taskCmd.h	/^CmdClass(TaskRemoveCmd);$/;"	v
+UTIL_H	util/util.h	9;"	d
+_buckets	util/myHashSet.h	/^   vector<Data>*     _buckets;$/;"	m	class:HashSet
+_currentMem	util/myUsage.h	/^   double     _currentMem;$/;"	m	class:MyUsage
+_currentTick	util/myUsage.h	/^   double     _currentTick;$/;"	m	class:MyUsage
+_data	util/myMinHeap.h	/^   vector<Data>   _data;$/;"	m	class:MinHeap
+_initMem	util/myUsage.h	/^   double     _initMem;$/;"	m	class:MyUsage
+_load	task/taskMgr.h	/^   size_t   _load;$/;"	m	class:TaskNode
+_name	task/taskMgr.h	/^   string   _name;$/;"	m	class:TaskNode
+_numBuckets	util/myHashSet.h	/^   size_t            _numBuckets;$/;"	m	class:HashSet
+_periodUsedTime	util/myUsage.h	/^   double     _periodUsedTime;$/;"	m	class:MyUsage
+_taskHash	task/taskMgr.h	/^   HashSet<TaskNode>   _taskHash;$/;"	m	class:TaskMgr
+_taskHeap	task/taskMgr.h	/^   MinHeap<TaskNode>   _taskHeap;$/;"	m	class:TaskMgr
+_totalUsedTime	util/myUsage.h	/^   double     _totalUsedTime;$/;"	m	class:MyUsage
+add	task/taskMgr.cpp	/^TaskMgr::add(const string& s, size_t l)$/;"	f	class:TaskMgr
+add	task/taskMgr.cpp	/^TaskMgr::add(size_t nMachines)$/;"	f	class:TaskMgr
+assign	task/taskMgr.cpp	/^TaskMgr::assign(size_t l)$/;"	f	class:TaskMgr
+begin	util/myHashSet.h	/^   iterator begin() const { return iterator(); }$/;"	f	class:HashSet
+bucketNum	util/myHashSet.h	/^   size_t bucketNum(const Data& d) const {$/;"	f	class:HashSet
+check	util/myHashSet.h	/^   bool check(const Data& d) const { return false; }$/;"	f	class:HashSet
+checkMem	util/myUsage.h	/^   double checkMem() const {$/;"	f	class:MyUsage
+checkTick	util/myUsage.h	/^   double checkTick() const {$/;"	f	class:MyUsage
+clear	task/taskMgr.cpp	/^TaskMgr::clear()$/;"	f	class:TaskMgr
+clear	util/myHashSet.h	/^   void clear() {$/;"	f	class:HashSet
+clear	util/myMinHeap.h	/^   void clear() { _data.clear(); }$/;"	f	class:MinHeap
+clearList	util/util.h	/^void clearList(T& l)$/;"	f
+delData	util/myMinHeap.h	/^   void delData(size_t i) { }$/;"	f	class:MinHeap
+delMin	util/myMinHeap.h	/^   void delMin() { }$/;"	f	class:MinHeap
+empty	task/taskMgr.h	/^   bool empty() { return size() == 0; }$/;"	f	class:TaskMgr
+empty	util/myHashSet.h	/^   bool empty() const { return true; }$/;"	f	class:HashSet
+end	util/myHashSet.h	/^   iterator end() const { return iterator(); }$/;"	f	class:HashSet
+exec	task/taskCmd.cpp	/^TaskAssignCmd::exec(const string& option)$/;"	f	class:TaskAssignCmd
+exec	task/taskCmd.cpp	/^TaskInitCmd::exec(const string& option)$/;"	f	class:TaskInitCmd
+exec	task/taskCmd.cpp	/^TaskNewCmd::exec(const string& option)$/;"	f	class:TaskNewCmd
+exec	task/taskCmd.cpp	/^TaskQueryCmd::exec(const string& option)$/;"	f	class:TaskQueryCmd
+exec	task/taskCmd.cpp	/^TaskRemoveCmd::exec(const string& option)$/;"	f	class:TaskRemoveCmd
+getHashSize	util/util.cpp	/^size_t getHashSize(size_t s) {$/;"	f
+getLoad	task/taskMgr.h	/^   size_t getLoad() const { return _load; }$/;"	f	class:TaskNode
+getName	task/taskMgr.h	/^   const string& getName() const { return _name; }$/;"	f	class:TaskNode
+help	task/taskCmd.cpp	/^TaskAssignCmd::help() const$/;"	f	class:TaskAssignCmd
+help	task/taskCmd.cpp	/^TaskInitCmd::help() const$/;"	f	class:TaskInitCmd
+help	task/taskCmd.cpp	/^TaskNewCmd::help() const$/;"	f	class:TaskNewCmd
+help	task/taskCmd.cpp	/^TaskQueryCmd::help() const$/;"	f	class:TaskQueryCmd
+help	task/taskCmd.cpp	/^TaskRemoveCmd::help() const$/;"	f	class:TaskRemoveCmd
+init	util/myHashSet.h	/^   void init(size_t b) { _numBuckets = b; _buckets = new vector<Data>[b]; }$/;"	f	class:HashSet
+initTaskCmd	task/taskCmd.cpp	/^initTaskCmd()$/;"	f
+insert	util/myHashSet.h	/^   bool insert(const Data& d) { return true; }$/;"	f	class:HashSet
+insert	util/myMinHeap.h	/^   void insert(const Data& d) { }$/;"	f	class:MinHeap
+isValidVarName	util/myString.cpp	/^isValidVarName(const string& str)$/;"	f
+iterator	util/myHashSet.h	/^   class iterator$/;"	c	class:HashSet
+listDir	util/util.cpp	/^int listDir$/;"	f
+main	main/main.cpp	/^main(int argc, char** argv)$/;"	f
+min	task/taskMgr.h	/^   const TaskNode& min() const { return _taskHeap.min(); }$/;"	f	class:TaskMgr
+min	util/myMinHeap.h	/^   const Data& min() const { return Data(); }$/;"	f	class:MinHeap
+myGetChar	util/myGetChar.cpp	/^char myGetChar()$/;"	f
+myGetChar	util/myGetChar.cpp	/^char myGetChar(istream& istr)$/;"	f
+myStr2Int	util/myString.cpp	/^myStr2Int(const string& str, int& num)$/;"	f
+myStrGetTok	util/myString.cpp	/^myStrGetTok(const string& str, string& tok, size_t pos = 0,$/;"	f
+myStrNCmp	util/myString.cpp	/^myStrNCmp(const string& s1, const string& s2, unsigned n)$/;"	f
+myUsage	util/util.cpp	/^MyUsage       myUsage;$/;"	v
+my_random	util/rnGen.h	17;"	d
+my_srandom	util/rnGen.h	16;"	d
+myexit	main/main.cpp	/^myexit()$/;"	f	file:
+numBuckets	util/myHashSet.h	/^   size_t numBuckets() const { return _numBuckets; }$/;"	f	class:HashSet
+operator !=	util/myHashSet.h	/^      bool operator != (const iterator& i) const { return true; }$/;"	f	class:HashSet::iterator
+operator ()	task/taskMgr.cpp	/^TaskNode::operator () () const $/;"	f	class:TaskNode
+operator ()	util/rnGen.h	/^      const int operator() (const int range) const {$/;"	f	class:RandomNumGen
+operator *	util/myHashSet.h	/^      const Data& operator * () const { return Data(); }$/;"	f	class:HashSet::iterator
+operator ++	util/myHashSet.h	/^      iterator& operator ++ () { return (*this); }$/;"	f	class:HashSet::iterator
+operator +=	task/taskMgr.h	/^   void operator += (size_t l) { _load += l; }$/;"	f	class:TaskNode
+operator <	task/taskMgr.h	/^   bool operator < (const TaskNode& n) const { return _load < n._load; }$/;"	f	class:TaskNode
+operator <<	task/taskMgr.cpp	/^ostream& operator << (ostream& os, const TaskNode& n)$/;"	f
+operator ==	task/taskMgr.h	/^   bool operator == (const TaskNode& n) const { return _name == n._name; }$/;"	f	class:TaskNode
+operator []	util/myHashSet.h	/^   const vector<Data>& operator [](size_t i) const { return _buckets[i]; }$/;"	f	class:HashSet
+operator []	util/myHashSet.h	/^   vector<Data>& operator [] (size_t i) { return _buckets[i]; }$/;"	f	class:HashSet
+operator []	util/myMinHeap.h	/^   Data& operator [] (size_t i) { return _data[i]; }$/;"	f	class:MinHeap
+operator []	util/myMinHeap.h	/^   const Data& operator [] (size_t i) const { return _data[i]; }   $/;"	f	class:MinHeap
+printAllHash	task/taskMgr.cpp	/^TaskMgr::printAllHash() const $/;"	f	class:TaskMgr
+printAllHeap	task/taskMgr.cpp	/^TaskMgr::printAllHeap() const$/;"	f	class:TaskMgr
+query	task/taskMgr.h	/^   bool query(TaskNode& n) { return _taskHash.query(n); }$/;"	f	class:TaskMgr
+query	util/myHashSet.h	/^   bool query(Data& d) const { return false; }$/;"	f	class:HashSet
+remove	task/taskMgr.cpp	/^TaskMgr::remove(const string& s)$/;"	f	class:TaskMgr
+remove	task/taskMgr.cpp	/^TaskMgr::remove(size_t nMachines)$/;"	f	class:TaskMgr
+remove	util/myHashSet.h	/^   bool remove(const Data& d) { return false; }$/;"	f	class:HashSet
+removeData	util/util.h	/^void removeData(T& l, const D& d)$/;"	f
+report	util/myUsage.h	/^   void report(bool repTime, bool repMem) {$/;"	f	class:MyUsage
+reset	util/myHashSet.h	/^   void reset() {$/;"	f	class:HashSet
+reset	util/myUsage.h	/^   void reset() {$/;"	f	class:MyUsage
+reset_keypress	util/myGetChar.cpp	/^static void reset_keypress(void)$/;"	f	file:
+setMemUsage	util/myUsage.h	/^   void setMemUsage() { _currentMem = checkMem() - _initMem; }$/;"	f	class:MyUsage
+setTimeUsage	util/myUsage.h	/^   void setTimeUsage() {$/;"	f	class:MyUsage
+set_keypress	util/myGetChar.cpp	/^static void set_keypress(void)$/;"	f	file:
+size	task/taskMgr.h	/^   size_t size() const { return _taskHeap.size(); }$/;"	f	class:TaskMgr
+size	util/myHashSet.h	/^   size_t size() const { size_t s = 0; return s; }$/;"	f	class:HashSet
+size	util/myMinHeap.h	/^   size_t size() const { return _data.size(); }$/;"	f	class:MinHeap
+stored_settings	util/myGetChar.cpp	/^static struct termios stored_settings;$/;"	v	typeref:struct:termios	file:
+update	util/myHashSet.h	/^   bool update(const Data& d) { return false; }$/;"	f	class:HashSet
+usage	main/main.cpp	/^usage()$/;"	f	file:
+usage	task/taskCmd.cpp	/^TaskAssignCmd::usage(ostream& os) const$/;"	f	class:TaskAssignCmd
+usage	task/taskCmd.cpp	/^TaskInitCmd::usage(ostream& os) const$/;"	f	class:TaskInitCmd
+usage	task/taskCmd.cpp	/^TaskNewCmd::usage(ostream& os) const$/;"	f	class:TaskNewCmd
+usage	task/taskCmd.cpp	/^TaskQueryCmd::usage(ostream& os) const$/;"	f	class:TaskQueryCmd
+usage	task/taskCmd.cpp	/^TaskRemoveCmd::usage(ostream& os) const$/;"	f	class:TaskRemoveCmd
+~HashSet	util/myHashSet.h	/^   ~HashSet() { reset(); }$/;"	f	class:HashSet
+~MinHeap	util/myMinHeap.h	/^   ~MinHeap() {}$/;"	f	class:MinHeap
+~TaskMgr	task/taskMgr.h	/^   ~TaskMgr() {}$/;"	f	class:TaskMgr
+~TaskNode	task/taskMgr.h	/^   ~TaskNode() {}$/;"	f	class:TaskNode

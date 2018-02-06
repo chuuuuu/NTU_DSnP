@@ -1,0 +1,40 @@
+adt> adta -r 20
+
+adt> adtp
+=== ADT (array) ===
+[  0] = vkuuxf   [  1] = jnyxqs   [  2] = nvphqn   [  3] = gzxwgo   
+[  4] = jtnrnb   [  5] = cdmtzy   [  6] = rjtjhg   [  7] = pgdtdu   
+[  8] = etbybn   [  9] = rmmhse   [ 10] = qbksrq   [ 11] = jepqsi   
+[ 12] = tfxrqg   [ 13] = ncgwrc   [ 14] = cjoprh   [ 15] = uhieza   
+[ 16] = vielyx   [ 17] = eqsoaa   [ 18] = hgrwei   [ 19] = rwqixe   
+
+
+adt> adtd -front 3
+
+adt> adtp
+=== ADT (array) ===
+[  0] = eqsoaa   [  1] = jnyxqs   [  2] = nvphqn   [  3] = gzxwgo   
+[  4] = jtnrnb   [  5] = cdmtzy   [  6] = rjtjhg   [  7] = pgdtdu   
+[  8] = etbybn   [  9] = rmmhse   [ 10] = qbksrq   [ 11] = jepqsi   
+[ 12] = tfxrqg   [ 13] = ncgwrc   [ 14] = cjoprh   [ 15] = uhieza   
+[ 16] = vielyx   
+
+adt> adtd -back 5
+
+adt> adtp
+=== ADT (array) ===
+[  0] = eqsoaa   [  1] = jnyxqs   [  2] = nvphqn   [  3] = gzxwgo   
+[  4] = jtnrnb   [  5] = cdmtzy   [  6] = rjtjhg   [  7] = pgdtdu   
+[  8] = etbybn   [  9] = rmmhse   [ 10] = qbksrq   [ 11] = jepqsi   
+
+
+adt> adtd -rand 4
+
+adt> adtp
+=== ADT (array) ===
+[  0] = eqsoaa   [  1] = jepqsi   [  2] = nvphqn   [  3] = gzxwgo   
+[  4] = jtnrnb   [  5] = qbksrq   [  6] = rmmhse   [  7] = pgdtdu   
+
+
+adt> q -f
+

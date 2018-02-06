@@ -1,0 +1,277 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARROW_DOWN_KEY	cmd/cmdCharDef.h	/^   ARROW_DOWN_KEY   = 66 + ARROW_KEY_FLAG,$/;"	e	enum:ParseChar
+ARROW_DOWN_KEY	cmd/cmdCharDef.h	/^   ARROW_DOWN_KEY   = TA_ARROW_DOWN_KEY,$/;"	e	enum:ParseChar
+ARROW_KEY_BEGIN	cmd/cmdCharDef.h	/^   ARROW_KEY_BEGIN  = ARROW_UP_KEY,$/;"	e	enum:ParseChar
+ARROW_KEY_BEGIN	cmd/cmdCharDef.h	/^   ARROW_KEY_BEGIN  = TA_ARROW_KEY_BEGIN,$/;"	e	enum:ParseChar
+ARROW_KEY_END	cmd/cmdCharDef.h	/^   ARROW_KEY_END    = ARROW_LEFT_KEY,$/;"	e	enum:ParseChar
+ARROW_KEY_END	cmd/cmdCharDef.h	/^   ARROW_KEY_END    = TA_ARROW_KEY_END,$/;"	e	enum:ParseChar
+ARROW_KEY_FLAG	cmd/cmdCharDef.h	/^   ARROW_KEY_FLAG   = 1 << 8,$/;"	e	enum:ParseChar
+ARROW_KEY_FLAG	cmd/cmdCharDef.h	/^   ARROW_KEY_FLAG   = TA_ARROW_KEY_FLAG,$/;"	e	enum:ParseChar
+ARROW_KEY_INT	cmd/cmdCharDef.h	/^   ARROW_KEY_INT    = 91,$/;"	e	enum:ParseChar
+ARROW_KEY_INT	cmd/cmdCharDef.h	/^   ARROW_KEY_INT    = TA_ARROW_KEY_INT,$/;"	e	enum:ParseChar
+ARROW_LEFT_KEY	cmd/cmdCharDef.h	/^   ARROW_LEFT_KEY   = 68 + ARROW_KEY_FLAG,$/;"	e	enum:ParseChar
+ARROW_LEFT_KEY	cmd/cmdCharDef.h	/^   ARROW_LEFT_KEY   = TA_ARROW_LEFT_KEY,$/;"	e	enum:ParseChar
+ARROW_RIGHT_KEY	cmd/cmdCharDef.h	/^   ARROW_RIGHT_KEY  = 67 + ARROW_KEY_FLAG,$/;"	e	enum:ParseChar
+ARROW_RIGHT_KEY	cmd/cmdCharDef.h	/^   ARROW_RIGHT_KEY  = TA_ARROW_RIGHT_KEY,$/;"	e	enum:ParseChar
+ARROW_UP_KEY	cmd/cmdCharDef.h	/^   ARROW_UP_KEY     = 65 + ARROW_KEY_FLAG,$/;"	e	enum:ParseChar
+ARROW_UP_KEY	cmd/cmdCharDef.h	/^   ARROW_UP_KEY     = TA_ARROW_UP_KEY,$/;"	e	enum:ParseChar
+BACK_SPACE_CHAR	cmd/cmdCharDef.h	/^   BACK_SPACE_CHAR  = 8,$/;"	e	enum:ParseChar
+BACK_SPACE_CHAR	cmd/cmdCharDef.h	/^   BACK_SPACE_CHAR  = TA_BACK_SPACE_CHAR,$/;"	e	enum:ParseChar
+BACK_SPACE_KEY	cmd/cmdCharDef.h	/^   BACK_SPACE_KEY   = 127,$/;"	e	enum:ParseChar
+BACK_SPACE_KEY	cmd/cmdCharDef.h	/^   BACK_SPACE_KEY   = TA_BACK_SPACE_KEY,$/;"	e	enum:ParseChar
+BEEP_CHAR	cmd/cmdCharDef.h	/^   BEEP_CHAR        = 7,$/;"	e	enum:ParseChar
+BEEP_CHAR	cmd/cmdCharDef.h	/^   BEEP_CHAR        = TA_BEEP_CHAR,$/;"	e	enum:ParseChar
+CMD_CHAR_DEF_H	cmd/cmdCharDef.h	9;"	d
+CMD_COMMON_H	cmd/cmdCommon.h	9;"	d
+CMD_EXEC_DONE	cmd/cmdParser.h	/^   CMD_EXEC_DONE  = 0,$/;"	e	enum:CmdExecStatus
+CMD_EXEC_ERROR	cmd/cmdParser.h	/^   CMD_EXEC_ERROR = 1,$/;"	e	enum:CmdExecStatus
+CMD_EXEC_NOP	cmd/cmdParser.h	/^   CMD_EXEC_NOP   = 3,$/;"	e	enum:CmdExecStatus
+CMD_EXEC_QUIT	cmd/cmdParser.h	/^   CMD_EXEC_QUIT  = 2,$/;"	e	enum:CmdExecStatus
+CMD_EXEC_TOT	cmd/cmdParser.h	/^   CMD_EXEC_TOT$/;"	e	enum:CmdExecStatus
+CMD_OPT_ERROR_TOT	cmd/cmdParser.h	/^   CMD_OPT_ERROR_TOT$/;"	e	enum:CmdOptionError
+CMD_OPT_EXTRA	cmd/cmdParser.h	/^   CMD_OPT_EXTRA      = 1,$/;"	e	enum:CmdOptionError
+CMD_OPT_FOPEN_FAIL	cmd/cmdParser.h	/^   CMD_OPT_FOPEN_FAIL = 3,$/;"	e	enum:CmdOptionError
+CMD_OPT_ILLEGAL	cmd/cmdParser.h	/^   CMD_OPT_ILLEGAL    = 2,$/;"	e	enum:CmdOptionError
+CMD_OPT_MISSING	cmd/cmdParser.h	/^   CMD_OPT_MISSING    = 0,$/;"	e	enum:CmdOptionError
+CMD_PARSER_H	cmd/cmdParser.h	9;"	d
+CmdClass	cmd/cmdParser.h	88;"	d
+CmdExec	cmd/cmdParser.h	/^   CmdExec() {}$/;"	f	class:CmdExec
+CmdExec	cmd/cmdParser.h	/^class CmdExec$/;"	c
+CmdExecStatus	cmd/cmdParser.h	/^enum CmdExecStatus$/;"	g
+CmdMap	cmd/cmdParser.h	/^typedef map<const string, CmdExec*>   CmdMap;$/;"	t	class:CmdParser
+CmdOptionError	cmd/cmdParser.h	/^enum CmdOptionError$/;"	g
+CmdParser	cmd/cmdParser.h	/^   CmdParser(const string& p) : _prompt(p), _dofile(0),$/;"	f	class:CmdParser
+CmdParser	cmd/cmdParser.h	/^class CmdParser$/;"	c
+CmdRegPair	cmd/cmdParser.h	/^typedef pair<const string, CmdExec*>  CmdRegPair;$/;"	t	class:CmdParser
+DBAppendCmd	db/dbCmd.h	/^CmdClass(DBAppendCmd);$/;"	v
+DBAveCmd	db/dbCmd.h	/^CmdClass(DBAveCmd);$/;"	v
+DBCountCmd	db/dbCmd.h	/^CmdClass(DBCountCmd);$/;"	v
+DBDelCmd	db/dbCmd.h	/^CmdClass(DBDelCmd);$/;"	v
+DBMaxCmd	db/dbCmd.h	/^CmdClass(DBMaxCmd);$/;"	v
+DBMinCmd	db/dbCmd.h	/^CmdClass(DBMinCmd);$/;"	v
+DBPrintCmd	db/dbCmd.h	/^CmdClass(DBPrintCmd);$/;"	v
+DBReadCmd	db/dbCmd.h	/^CmdClass(DBReadCmd);$/;"	v
+DBRow	db/dbTable.h	/^   DBRow() {}$/;"	f	class:DBRow
+DBRow	db/dbTable.h	/^   DBRow(const vector<int>& d) : _data(d) {}$/;"	f	class:DBRow
+DBRow	db/dbTable.h	/^class DBRow$/;"	c
+DBSort	db/dbTable.h	/^struct DBSort$/;"	s
+DBSortCmd	db/dbCmd.h	/^CmdClass(DBSortCmd);$/;"	v
+DBSumCmd	db/dbCmd.h	/^CmdClass(DBSumCmd);$/;"	v
+DBTable	db/dbTable.h	/^class DBTable$/;"	c
+DB_CMD_H	db/dbCmd.h	9;"	d
+DB_TABLE_H	db/dbTable.h	9;"	d
+DELETE_KEY	cmd/cmdCharDef.h	/^   DELETE_KEY       = 51 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar
+DELETE_KEY	cmd/cmdCharDef.h	/^   DELETE_KEY       = TA_DELETE_KEY,$/;"	e	enum:ParseChar
+DofileCmd	cmd/cmdCommon.h	/^CmdClass(DofileCmd);$/;"	v
+END_KEY	cmd/cmdCharDef.h	/^   END_KEY          = 52 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar
+END_KEY	cmd/cmdCharDef.h	/^   END_KEY          = TA_END_KEY,$/;"	e	enum:ParseChar
+ESC_KEY	cmd/cmdCharDef.h	/^   ESC_KEY          = 27,         \/\/ Not printable; used for combo keys$/;"	e	enum:ParseChar
+ESC_KEY	cmd/cmdCharDef.h	/^   ESC_KEY          = TA_ESC_KEY,         \/\/ Not printable; used for combo keys$/;"	e	enum:ParseChar
+HOME_KEY	cmd/cmdCharDef.h	/^   HOME_KEY         = 49 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar
+HOME_KEY	cmd/cmdCharDef.h	/^   HOME_KEY         = TA_HOME_KEY,$/;"	e	enum:ParseChar
+HelpCmd	cmd/cmdCommon.h	/^CmdClass(HelpCmd);$/;"	v
+HistoryCmd	cmd/cmdCommon.h	/^CmdClass(HistoryCmd);$/;"	v
+INPUT_END_KEY	cmd/cmdCharDef.h	/^   INPUT_END_KEY    = 4,          \/\/ ctrl-d$/;"	e	enum:ParseChar
+INPUT_END_KEY	cmd/cmdCharDef.h	/^   INPUT_END_KEY    = TA_INPUT_END_KEY,   \/\/ ctrl-d$/;"	e	enum:ParseChar
+INSERT_KEY	cmd/cmdCharDef.h	/^   INSERT_KEY       = 50 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar
+INSERT_KEY	cmd/cmdCharDef.h	/^   INSERT_KEY       = TA_INSERT_KEY,$/;"	e	enum:ParseChar
+LINE_BEGIN_KEY	cmd/cmdCharDef.h	/^   LINE_BEGIN_KEY   = 1,          \/\/ ctrl-a$/;"	e	enum:ParseChar
+LINE_BEGIN_KEY	cmd/cmdCharDef.h	/^   LINE_BEGIN_KEY   = TA_LINE_BEGIN_KEY,  \/\/ ctrl-a$/;"	e	enum:ParseChar
+LINE_END_KEY	cmd/cmdCharDef.h	/^   LINE_END_KEY     = 5,          \/\/ ctrl-e$/;"	e	enum:ParseChar
+LINE_END_KEY	cmd/cmdCharDef.h	/^   LINE_END_KEY     = TA_LINE_END_KEY,    \/\/ ctrl-e$/;"	e	enum:ParseChar
+MOD_KEY_BEGIN	cmd/cmdCharDef.h	/^   MOD_KEY_BEGIN    = HOME_KEY,$/;"	e	enum:ParseChar
+MOD_KEY_BEGIN	cmd/cmdCharDef.h	/^   MOD_KEY_BEGIN    = TA_MOD_KEY_BEGIN,$/;"	e	enum:ParseChar
+MOD_KEY_DUMMY	cmd/cmdCharDef.h	/^   MOD_KEY_DUMMY    = 126,$/;"	e	enum:ParseChar
+MOD_KEY_DUMMY	cmd/cmdCharDef.h	/^   MOD_KEY_DUMMY    = TA_MOD_KEY_DUMMY,$/;"	e	enum:ParseChar
+MOD_KEY_END	cmd/cmdCharDef.h	/^   MOD_KEY_END      = PG_DOWN_KEY,$/;"	e	enum:ParseChar
+MOD_KEY_END	cmd/cmdCharDef.h	/^   MOD_KEY_END      = TA_MOD_KEY_END,$/;"	e	enum:ParseChar
+MOD_KEY_FLAG	cmd/cmdCharDef.h	/^   MOD_KEY_FLAG     = 1 << 9,$/;"	e	enum:ParseChar
+MOD_KEY_FLAG	cmd/cmdCharDef.h	/^   MOD_KEY_FLAG     = TA_MOD_KEY_FLAG,$/;"	e	enum:ParseChar
+MOD_KEY_INT	cmd/cmdCharDef.h	/^   MOD_KEY_INT      = 91,$/;"	e	enum:ParseChar
+MOD_KEY_INT	cmd/cmdCharDef.h	/^   MOD_KEY_INT      = TA_MOD_KEY_INT,$/;"	e	enum:ParseChar
+NEWLINE_KEY	cmd/cmdCharDef.h	/^   NEWLINE_KEY      = TA_NEWLINE_KEY,     \/\/ enter('\\n') or ctrl-m$/;"	e	enum:ParseChar
+NEWLINE_KEY	cmd/cmdCharDef.h	/^   NEWLINE_KEY      = int('\\n'),  \/\/ enter('\\n') or ctrl-m$/;"	e	enum:ParseChar
+PARSE_CHAR_END	cmd/cmdCharDef.h	/^   PARSE_CHAR_END$/;"	e	enum:ParseChar
+PG_DOWN_KEY	cmd/cmdCharDef.h	/^   PG_DOWN_KEY      = 54 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar
+PG_DOWN_KEY	cmd/cmdCharDef.h	/^   PG_DOWN_KEY      = TA_PG_DOWN_KEY,$/;"	e	enum:ParseChar
+PG_OFFSET	cmd/cmdParser.h	107;"	d
+PG_UP_KEY	cmd/cmdCharDef.h	/^   PG_UP_KEY        = 53 + MOD_KEY_FLAG,$/;"	e	enum:ParseChar
+PG_UP_KEY	cmd/cmdCharDef.h	/^   PG_UP_KEY        = TA_PG_UP_KEY,$/;"	e	enum:ParseChar
+ParseChar	cmd/cmdCharDef.h	/^enum ParseChar$/;"	g
+QuitCmd	cmd/cmdCommon.h	/^CmdClass(QuitCmd);$/;"	v
+READ_BUF_SIZE	cmd/cmdParser.h	106;"	d
+TAB_KEY	cmd/cmdCharDef.h	/^   TAB_KEY          = TA_TAB_KEY,         \/\/ tab('\\t') or Ctrl-i$/;"	e	enum:ParseChar
+TAB_KEY	cmd/cmdCharDef.h	/^   TAB_KEY          = int('\\t'),  \/\/ tab('\\t') or Ctrl-i$/;"	e	enum:ParseChar
+TA_ARROW_DOWN_KEY	cmd/cmdCharDef.h	25;"	d
+TA_ARROW_KEY_BEGIN	cmd/cmdCharDef.h	28;"	d
+TA_ARROW_KEY_END	cmd/cmdCharDef.h	29;"	d
+TA_ARROW_KEY_FLAG	cmd/cmdCharDef.h	22;"	d
+TA_ARROW_KEY_INT	cmd/cmdCharDef.h	23;"	d
+TA_ARROW_LEFT_KEY	cmd/cmdCharDef.h	27;"	d
+TA_ARROW_RIGHT_KEY	cmd/cmdCharDef.h	26;"	d
+TA_ARROW_UP_KEY	cmd/cmdCharDef.h	24;"	d
+TA_BACK_SPACE_CHAR	cmd/cmdCharDef.h	43;"	d
+TA_BACK_SPACE_KEY	cmd/cmdCharDef.h	21;"	d
+TA_BEEP_CHAR	cmd/cmdCharDef.h	42;"	d
+TA_DELETE_KEY	cmd/cmdCharDef.h	34;"	d
+TA_END_KEY	cmd/cmdCharDef.h	35;"	d
+TA_ESC_KEY	cmd/cmdCharDef.h	20;"	d
+TA_HOME_KEY	cmd/cmdCharDef.h	32;"	d
+TA_INPUT_END_KEY	cmd/cmdCharDef.h	17;"	d
+TA_INSERT_KEY	cmd/cmdCharDef.h	33;"	d
+TA_LINE_BEGIN_KEY	cmd/cmdCharDef.h	15;"	d
+TA_LINE_END_KEY	cmd/cmdCharDef.h	16;"	d
+TA_MOD_KEY_BEGIN	cmd/cmdCharDef.h	38;"	d
+TA_MOD_KEY_DUMMY	cmd/cmdCharDef.h	40;"	d
+TA_MOD_KEY_END	cmd/cmdCharDef.h	39;"	d
+TA_MOD_KEY_FLAG	cmd/cmdCharDef.h	30;"	d
+TA_MOD_KEY_INT	cmd/cmdCharDef.h	31;"	d
+TA_NEWLINE_KEY	cmd/cmdCharDef.h	19;"	d
+TA_PG_DOWN_KEY	cmd/cmdCharDef.h	37;"	d
+TA_PG_UP_KEY	cmd/cmdCharDef.h	36;"	d
+TA_TAB_KEY	cmd/cmdCharDef.h	18;"	d
+TA_UNDEFINED_KEY	cmd/cmdCharDef.h	41;"	d
+UNDEFINED_KEY	cmd/cmdCharDef.h	/^   UNDEFINED_KEY    = TA_UNDEFINED_KEY,$/;"	e	enum:ParseChar
+UNDEFINED_KEY	cmd/cmdCharDef.h	/^   UNDEFINED_KEY  = INT_MAX,$/;"	e	enum:ParseChar
+UTIL_H	util/util.h	9;"	d
+UsageCmd	cmd/cmdCommon.h	/^CmdClass(UsageCmd);$/;"	v
+_cmdMap	cmd/cmdParser.h	/^   CmdMap    _cmdMap;                \/\/ map from string to command$/;"	m	class:CmdParser
+_data	db/dbTable.h	/^   vector<int>   _data;$/;"	m	class:DBRow
+_dofile	cmd/cmdParser.h	/^   ifstream* _dofile;                \/\/ for command script$/;"	m	class:CmdParser
+_dofileStack	cmd/cmdParser.h	/^   stack<ifstream*> _dofileStack;    \/\/ For recursive dofile calling$/;"	m	class:CmdParser
+_history	cmd/cmdParser.h	/^   vector<string>   _history;        \/\/ oldest:_history[0],latest:_hist.back()$/;"	m	class:CmdParser
+_historyIdx	cmd/cmdParser.h	/^   int       _historyIdx;            \/\/ (1) Position to insert history string$/;"	m	class:CmdParser
+_optCmd	cmd/cmdParser.h	/^   string            _optCmd;$/;"	m	class:CmdExec
+_prompt	cmd/cmdParser.h	/^   const string _prompt;             \/\/ command prompt$/;"	m	class:CmdParser
+_readBuf	cmd/cmdParser.h	/^   char      _readBuf[READ_BUF_SIZE];\/\/ save the current line input$/;"	m	class:CmdParser
+_readBufEnd	cmd/cmdParser.h	/^   char*     _readBufEnd;            \/\/ end of string position of _readBuf$/;"	m	class:CmdParser
+_readBufPtr	cmd/cmdParser.h	/^   char*     _readBufPtr;            \/\/ point to the cursor position$/;"	m	class:CmdParser
+_sortOrder	db/dbTable.h	/^   vector<size_t> _sortOrder;$/;"	m	struct:DBSort
+_tabPressCount	cmd/cmdParser.h	/^   size_t    _tabPressCount;         \/\/ The number of tab pressed$/;"	m	class:CmdParser
+_table	db/dbTable.h	/^   vector<DBRow>    _table;$/;"	m	class:DBTable
+_tempCmdStored	cmd/cmdParser.h	/^   bool      _tempCmdStored;         \/\/ When up\/pgUp is pressed, current line$/;"	m	class:CmdParser
+addCol	db/dbTable.cpp	/^DBTable::addCol(const vector<int>& d)$/;"	f	class:DBTable
+addData	db/dbTable.h	/^   void addData(int i) { \/* TODO *\/ _data.push_back(i); }$/;"	f	class:DBRow
+addRow	db/dbTable.h	/^   void addRow(const DBRow& r) { _table.push_back(r); }$/;"	f	class:DBTable
+checkColIdx	db/dbCmd.cpp	/^static bool checkColIdx(const string& token, int& c)$/;"	f	file:
+checkRowIdx	db/dbCmd.cpp	/^static bool checkRowIdx(const string& token, int& c)$/;"	f	file:
+closeDofile	cmd/cmdParser.cpp	/^CmdParser::closeDofile()$/;"	f	class:CmdParser
+cmdMgr	test/test.cpp	/^CmdParser* cmdMgr = 0; \/\/ for linking purpose$/;"	v
+dbtbl	db/dbCmd.cpp	/^DBTable dbtbl;$/;"	v
+delCol	db/dbTable.cpp	/^DBTable::delCol(int c)$/;"	f	class:DBTable
+delRow	db/dbTable.cpp	/^DBTable::delRow(int c)$/;"	f	class:DBTable
+empty	db/dbTable.h	/^   bool empty() const { return _data.empty(); }$/;"	f	class:DBRow
+errorOption	cmd/cmdParser.cpp	/^CmdExec::errorOption(CmdOptionError err, const string& opt) const$/;"	f	class:CmdExec
+exec	cmd/cmdCommon.cpp	/^DofileCmd::exec(const string& option)$/;"	f	class:DofileCmd
+exec	cmd/cmdCommon.cpp	/^HelpCmd::exec(const string& option)$/;"	f	class:HelpCmd
+exec	cmd/cmdCommon.cpp	/^HistoryCmd::exec(const string& option)$/;"	f	class:HistoryCmd
+exec	cmd/cmdCommon.cpp	/^QuitCmd::exec(const string& option)$/;"	f	class:QuitCmd
+exec	db/dbCmd.cpp	/^DBAppendCmd::exec(const string& option)$/;"	f	class:DBAppendCmd
+exec	db/dbCmd.cpp	/^DBAveCmd::exec(const string& option)$/;"	f	class:DBAveCmd
+exec	db/dbCmd.cpp	/^DBCountCmd::exec(const string& option)$/;"	f	class:DBCountCmd
+exec	db/dbCmd.cpp	/^DBDelCmd::exec(const string& option)$/;"	f	class:DBDelCmd
+exec	db/dbCmd.cpp	/^DBMaxCmd::exec(const string& option)$/;"	f	class:DBMaxCmd
+exec	db/dbCmd.cpp	/^DBMinCmd::exec(const string& option)$/;"	f	class:DBMinCmd
+exec	db/dbCmd.cpp	/^DBPrintCmd::exec(const string& option)$/;"	f	class:DBPrintCmd
+exec	db/dbCmd.cpp	/^DBReadCmd::exec(const string& option)$/;"	f	class:DBReadCmd
+exec	db/dbCmd.cpp	/^DBSortCmd::exec(const string& option)$/;"	f	class:DBSortCmd
+exec	db/dbCmd.cpp	/^DBSumCmd::exec(const string& option)$/;"	f	class:DBSumCmd
+execOneCmd	cmd/cmdParser.cpp	/^CmdParser::execOneCmd()$/;"	f	class:CmdParser
+getAve	db/dbTable.cpp	/^DBTable::getAve(size_t c) const$/;"	f	class:DBTable
+getChar	cmd/cmdCharDef.cpp	/^CmdParser::getChar(istream& istr) const$/;"	f	class:CmdParser
+getCmd	cmd/cmdParser.cpp	/^CmdParser::getCmd(string cmd)$/;"	f	class:CmdParser
+getCount	db/dbTable.cpp	/^DBTable::getCount(size_t c) const$/;"	f	class:DBTable
+getData	db/dbTable.h	/^   int getData(size_t r, size_t c) const { return _table[r][c]; }$/;"	f	class:DBTable
+getMax	db/dbTable.cpp	/^DBTable::getMax(size_t c) const$/;"	f	class:DBTable
+getMin	db/dbTable.cpp	/^DBTable::getMin(size_t c) const$/;"	f	class:DBTable
+getOptCmd	cmd/cmdParser.h	/^   const string& getOptCmd() const { return _optCmd; }$/;"	f	class:CmdExec
+getSum	db/dbTable.cpp	/^DBTable::getSum(size_t c) const$/;"	f	class:DBTable
+help	cmd/cmdCommon.cpp	/^DofileCmd::help() const$/;"	f	class:DofileCmd
+help	cmd/cmdCommon.cpp	/^HelpCmd::help() const$/;"	f	class:HelpCmd
+help	cmd/cmdCommon.cpp	/^HistoryCmd::help() const$/;"	f	class:HistoryCmd
+help	cmd/cmdCommon.cpp	/^QuitCmd::help() const$/;"	f	class:QuitCmd
+help	db/dbCmd.cpp	/^DBAppendCmd::help() const$/;"	f	class:DBAppendCmd
+help	db/dbCmd.cpp	/^DBAveCmd::help() const$/;"	f	class:DBAveCmd
+help	db/dbCmd.cpp	/^DBCountCmd::help() const$/;"	f	class:DBCountCmd
+help	db/dbCmd.cpp	/^DBDelCmd::help() const$/;"	f	class:DBDelCmd
+help	db/dbCmd.cpp	/^DBMaxCmd::help() const$/;"	f	class:DBMaxCmd
+help	db/dbCmd.cpp	/^DBMinCmd::help() const$/;"	f	class:DBMinCmd
+help	db/dbCmd.cpp	/^DBPrintCmd::help() const$/;"	f	class:DBPrintCmd
+help	db/dbCmd.cpp	/^DBReadCmd::help() const$/;"	f	class:DBReadCmd
+help	db/dbCmd.cpp	/^DBSortCmd::help() const$/;"	f	class:DBSortCmd
+help	db/dbCmd.cpp	/^DBSumCmd::help() const$/;"	f	class:DBSumCmd
+initCommonCmd	cmd/cmdCommon.cpp	/^initCommonCmd()$/;"	f
+initDbCmd	db/dbCmd.cpp	/^initDbCmd()$/;"	f
+isValidVarName	util/myString.cpp	/^isValidVarName(const string& str)$/;"	f
+lexOptions	cmd/cmdParser.cpp	/^CmdExec::lexOptions$/;"	f	class:CmdExec
+lexSingleOption	cmd/cmdParser.cpp	/^CmdExec::lexSingleOption$/;"	f	class:CmdExec
+listCmd	cmd/cmdParser.cpp	/^CmdParser::listCmd(const string& str)$/;"	f	class:CmdParser
+listDir	util/util.cpp	/^int listDir$/;"	f
+main	main/main.cpp	/^main(int argc, char** argv)$/;"	f
+main	test/test.cpp	/^main(int argc, char** argv)$/;"	f
+myGetChar	util/myGetChar.cpp	/^char myGetChar()$/;"	f
+myGetChar	util/myGetChar.cpp	/^char myGetChar(istream& istr)$/;"	f
+myStr2Int	util/myString.cpp	/^myStr2Int(const string& str, int& num)$/;"	f
+myStrGetTok	util/myString.cpp	/^myStrGetTok(const string& str, string& tok, size_t pos = 0,$/;"	f
+myStrNCmp	util/myString.cpp	/^myStrNCmp(const string& s1, const string& s2, unsigned n)$/;"	f
+mybeep	cmd/cmdCharDef.cpp	/^void mybeep()$/;"	f
+myexit	main/main.cpp	/^myexit()$/;"	f	file:
+mygetc	cmd/cmdCharDef.cpp	/^static char mygetc(istream& istr)$/;"	f	file:
+nCols	db/dbTable.h	/^   size_t nCols() const { \/* TODO *\/ return _table[0].size(); }$/;"	f	class:DBTable
+nRows	db/dbTable.h	/^   size_t nRows() const { return _table.size(); }$/;"	f	class:DBTable
+openDofile	cmd/cmdParser.cpp	/^CmdParser::openDofile(const string& dof)$/;"	f	class:CmdParser
+operator !	db/dbTable.h	/^   bool operator !() { return _table.empty(); }$/;"	f	class:DBTable
+operator ()	db/dbTable.cpp	/^DBSort::operator() (const DBRow& r1, const DBRow& r2) const$/;"	f	class:DBSort
+operator <<	db/dbTable.cpp	/^ostream& operator << (ostream& os, const DBRow& r)$/;"	f
+operator <<	db/dbTable.cpp	/^ostream& operator << (ostream& os, const DBTable& t)$/;"	f
+operator >>	db/dbTable.cpp	/^ifstream& operator >> (ifstream& ifs, DBTable& t)$/;"	f
+operator []	db/dbTable.h	/^   const DBRow& operator [] (size_t i) const { return _table[i]; }$/;"	f	class:DBTable
+operator []	db/dbTable.h	/^   const int& operator [] (size_t i) const { return _data[i]; }$/;"	f	class:DBRow
+operator []	db/dbTable.h	/^   int& operator [] (size_t i) { return _data[i]; }$/;"	f	class:DBRow
+operator void*	db/dbTable.h	/^   operator void* () const { return _table.empty()? NULL: (void*)this; }$/;"	f	class:DBTable
+parseCmd	cmd/cmdParser.cpp	/^CmdParser::parseCmd(string& option)$/;"	f	class:CmdParser
+printCol	db/dbTable.cpp	/^DBTable::printCol(size_t c) const$/;"	f	class:DBTable
+printData	db/dbTable.h	/^   static void printData(ostream& os, int i, bool printNull = false) {$/;"	f	class:DBTable
+printHelps	cmd/cmdParser.cpp	/^CmdParser::printHelps() const$/;"	f	class:CmdParser
+printHistory	cmd/cmdParser.cpp	/^CmdParser::printHistory(int nPrint) const$/;"	f	class:CmdParser
+printPrompt	cmd/cmdParser.h	/^   void printPrompt() const { cout << _prompt; }$/;"	f	class:CmdParser
+printSummary	db/dbTable.cpp	/^DBTable::printSummary() const$/;"	f	class:DBTable
+pushOrder	db/dbTable.h	/^   void pushOrder(size_t i) { _sortOrder.push_back(i); }$/;"	f	struct:DBSort
+regCmd	cmd/cmdParser.cpp	/^CmdParser::regCmd(const string& cmd, unsigned nCmp, CmdExec* e)$/;"	f	class:CmdParser
+removeCell	db/dbTable.cpp	/^DBRow::removeCell(size_t c)$/;"	f	class:DBRow
+reset	db/dbTable.cpp	/^DBTable::reset()$/;"	f	class:DBTable
+reset	db/dbTable.h	/^   void reset() { vector<int> tmp; tmp.swap(_data); }$/;"	f	class:DBRow
+resetBufAndPrintPrompt	cmd/cmdParser.h	/^   void resetBufAndPrintPrompt() {$/;"	f	class:CmdParser
+reset_keypress	cmd/cmdCharDef.cpp	/^static void reset_keypress(void)$/;"	f	file:
+reset_keypress	util/myGetChar.cpp	/^static void reset_keypress(void)$/;"	f	file:
+returnCh	cmd/cmdCharDef.cpp	/^returnCh(int ch)$/;"	f	file:
+setOptCmd	cmd/cmdParser.h	/^   void setOptCmd(const string& str) { _optCmd = str; }$/;"	f	class:CmdExec
+set_keypress	cmd/cmdCharDef.cpp	/^static void set_keypress(void)$/;"	f	file:
+set_keypress	util/myGetChar.cpp	/^static void set_keypress(void)$/;"	f	file:
+size	db/dbTable.h	/^   size_t size() const { return _data.size(); }$/;"	f	class:DBRow
+sort	db/dbTable.cpp	/^DBTable::sort(const struct DBSort& s)$/;"	f	class:DBTable
+stored_settings	cmd/cmdCharDef.cpp	/^static struct termios stored_settings;$/;"	v	typeref:struct:termios	file:
+stored_settings	util/myGetChar.cpp	/^static struct termios stored_settings;$/;"	v	typeref:struct:termios	file:
+taTestOnly	cmd/cmdParser.h	/^   void taTestOnly() {}$/;"	f	class:CmdParser
+usage	cmd/cmdCommon.cpp	/^DofileCmd::usage(ostream& os) const$/;"	f	class:DofileCmd
+usage	cmd/cmdCommon.cpp	/^HelpCmd::usage(ostream& os) const$/;"	f	class:HelpCmd
+usage	cmd/cmdCommon.cpp	/^HistoryCmd::usage(ostream& os) const$/;"	f	class:HistoryCmd
+usage	cmd/cmdCommon.cpp	/^QuitCmd::usage(ostream& os) const$/;"	f	class:QuitCmd
+usage	db/dbCmd.cpp	/^DBAppendCmd::usage(ostream& os) const$/;"	f	class:DBAppendCmd
+usage	db/dbCmd.cpp	/^DBAveCmd::usage(ostream& os) const$/;"	f	class:DBAveCmd
+usage	db/dbCmd.cpp	/^DBCountCmd::usage(ostream& os) const$/;"	f	class:DBCountCmd
+usage	db/dbCmd.cpp	/^DBDelCmd::usage(ostream& os) const$/;"	f	class:DBDelCmd
+usage	db/dbCmd.cpp	/^DBMaxCmd::usage(ostream& os) const$/;"	f	class:DBMaxCmd
+usage	db/dbCmd.cpp	/^DBMinCmd::usage(ostream& os) const$/;"	f	class:DBMinCmd
+usage	db/dbCmd.cpp	/^DBPrintCmd::usage(ostream& os) const$/;"	f	class:DBPrintCmd
+usage	db/dbCmd.cpp	/^DBReadCmd::usage(ostream& os) const$/;"	f	class:DBReadCmd
+usage	db/dbCmd.cpp	/^DBSortCmd::usage(ostream& os) const$/;"	f	class:DBSortCmd
+usage	db/dbCmd.cpp	/^DBSumCmd::usage(ostream& os) const$/;"	f	class:DBSumCmd
+usage	main/main.cpp	/^usage()$/;"	f	file:
+~CmdExec	cmd/cmdParser.h	/^   virtual ~CmdExec() {}$/;"	f	class:CmdExec
+~CmdParser	cmd/cmdParser.h	/^   virtual ~CmdParser() {}$/;"	f	class:CmdParser

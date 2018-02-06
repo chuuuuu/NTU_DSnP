@@ -1,0 +1,120 @@
+adt> adta -r 5000000
+
+adt> usage
+Period time used : 10.21 seconds
+Total time used  : 10.21 seconds
+Total memory used: 304.4 M Bytes
+
+adt> adtr 6
+
+adt> usage
+Period time used : 1.28 seconds
+Total time used  : 11.49 seconds
+Total memory used: 304.4 M Bytes
+
+adt> adta -r 100000
+
+adt> usage
+Period time used : 0.2 seconds
+Total time used  : 11.69 seconds
+Total memory used: 304.4 M Bytes
+
+adt> adts
+
+adt> usage
+Period time used : 0 seconds
+Total time used  : 11.69 seconds
+Total memory used: 304.4 M Bytes
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> adtd -r 100
+
+adt> adts
+
+adt> usage
+Period time used : 9.67 seconds
+Total time used  : 21.36 seconds
+Total memory used: 304.4 M Bytes
+
+adt> adta -r 100
+
+adt> adts
+
+adt> adta -r 100
+
+adt> adts
+
+adt> adta -r 100
+
+adt> adts
+
+adt> adta -r 100
+
+adt> adts
+
+adt> adta -r 100
+
+adt> adts
+
+adt> adta -r 100
+
+adt> adts
+
+adt> adta -r 100
+
+adt> adts
+
+adt> adta -r 100
+
+adt> adts
+
+adt> adta -r 100
+
+adt> adts
+
+adt> adta -r 100
+
+adt> adts
+
+adt> usage
+Period time used : 0.01 seconds
+Total time used  : 21.37 seconds
+Total memory used: 304.4 M Bytes
+
+adt> q -f
+

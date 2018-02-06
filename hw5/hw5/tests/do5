@@ -1,0 +1,51 @@
+adta -r 5000000
+usage
+adtr 6
+usage
+adta -r 100000
+usage
+adts
+usage
+adtd -r 100
+adts
+adtd -r 100
+adts
+adtd -r 100
+adts
+adtd -r 100
+adts
+adtd -r 100
+adts
+adtd -r 100
+adts
+adtd -r 100
+adts
+adtd -r 100
+adts
+adtd -r 100
+adts
+adtd -r 100
+adts
+usage
+adta -r 100
+adts
+adta -r 100
+adts
+adta -r 100
+adts
+adta -r 100
+adts
+adta -r 100
+adts
+adta -r 100
+adts
+adta -r 100
+adts
+adta -r 100
+adts
+adta -r 100
+adts
+adta -r 100
+adts
+usage
+q -f

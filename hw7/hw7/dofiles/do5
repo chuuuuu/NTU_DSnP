@@ -1,0 +1,8 @@
+taski 10
+taskn -r 30
+taskr -r 30
+taskq -hash
+taskq -heap
+taskq -mini
+usage
+q -f

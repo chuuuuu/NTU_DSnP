@@ -1,0 +1,10 @@
+adta -r 500000
+adts
+USAGE
+adtd -r 50
+adts
+USAGE
+adta -r 50
+adts
+USAGE
+q -f
