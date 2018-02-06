@@ -1,4 +1,4 @@
-HOMEWORKs in DSnP (2017 Fall) @ National Taiwan University
+HOMEWORKs written in DSnP (2017 Fall) @ National Taiwan University
 
 # HW1
 1.make sure we have a linux compatible programming environment.\  
